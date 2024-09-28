@@ -60,23 +60,24 @@ export default function Experience() {
             const experienceSection = document.querySelector('.counts');
             const sectionPosition = experienceSection.getBoundingClientRect().top;
             const screenPosition = window.innerHeight;
-
+    
             // Check if the section is in view and if counting hasn't been done yet
             if (sectionPosition < screenPosition && !hasCounted) {
-                const options = { duration: 2 }; // 2 seconds duration for counting
+                const options = { duration: 5 }; // Increase duration to slow down the count (5 seconds)
                 new CountUp('clientsCount', 122, options).start();
                 new CountUp('projectsCount', 602, options).start();
                 new CountUp('seminarsCount', 300, options).start();
-
+    
                 // Set the flag to true so counting only happens once
                 setHasCounted(true);
             }
         };
-
+    
         window.addEventListener('scroll', handleScroll);
-
+    
         return () => window.removeEventListener('scroll', handleScroll);
     }, [hasCounted]); // Add hasCounted as a dependency
+    
 
     return (
         <div className="experience_container" data-aos="fade-up">
