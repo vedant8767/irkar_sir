@@ -1,0 +1,183 @@
+/* .navbar{
+    display: flex;
+    gap: 350px;
+    align-items: center;
+    padding: 10px;
+}
+
+.navItems ul{
+    list-style: none;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: white;
+    font-size: 5vh;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+} */
+ /* Navbar base styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    z-index:1000;
+}
+
+.navItems ul {
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 5vh; /* Adjusted font size for better responsiveness */
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+}
+.closebutton{
+    cursor: pointer;
+    gap: 5px;
+    position: absolute;
+    top:10px;
+    left: 10px;
+    font-weight: bold;
+    font-size: 3vh;
+    display: none;
+}
+.btn{
+    background-color:#919199;
+    outline: none;
+    border: none;
+    font-size: 4.5vh;
+    font-weight: bold;
+    color: aliceblue;
+    cursor: pointer;
+    transition-duration: 200ms;
+    padding-left: 24px; /* Equivalent to px-6 */
+    padding-right: 24px; /* Equivalent to px-6 */
+    padding-top: 8px; /* Equivalent to py-2 */
+    padding-bottom: 8px;
+    border-radius: 9999px;
+}
+.btn:hover{
+    border:1px solid black; 
+    /* background-color: cornflowerblue; */
+    color: yellow;
+}
+
+
+/* Responsive behavior for smaller screens */
+@media (max-width: 768px) {
+    .btn{
+        background-color: grey;
+        font-size: 3vh;
+    }
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 20px;
+        position: relative;
+        /* z-index: 9999; */
+        /* position: relative; */
+        /* position: absolute; */
+        /* background-color: aqua; */
+        /* height: 100vh; */
+    }
+    .navItems ul{
+        height: 100%;
+    }
+
+    .navItems ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 0px; /* Adjust based on navbar height */
+        right: 0;
+        width: 100%;
+        background-color: grey;
+        padding: 20px;
+        text-align: center;
+    }
+
+    
+
+    .navItems.open ul {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+    
+}
+
+/* Even smaller devices (like phones) */
+@media (max-width: 480px) {
+    .navItems ul {
+        font-size: 2vh;
+        gap: 20px;
+    }
+
+    .navbar {
+        padding: 15px 12px;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .btn{
+        background-color: grey;
+        font-size: 3vh;
+    }
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 20px;
+        position: relative;
+        /* position: absolute; */
+        /* background-color: aqua; */
+        /* height: 100vh; */
+    }
+    .navItems ul{
+        height: 100%;
+    }
+
+    .navItems ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 0px; /* Adjust based on navbar height */
+        right: 0;
+        width: 100%;
+        background-color: grey;
+        padding: 20px;
+        text-align: center;
+    }
+
+    
+
+    .navItems.open ul {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}

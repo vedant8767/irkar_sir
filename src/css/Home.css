@@ -1,0 +1,199 @@
+/* .home_container{
+    display: flex;
+    height: 75vh;
+    
+}
+.home_left{
+    width: 50%;
+    height: 100%;
+    padding: 45px 90px;
+    line-height: 38px;
+   
+} 
+/* .home_left h1{
+    color: yellow;
+    font-size: 6vh;
+    font-weight: bold;
+}
+.home_left p{
+    color: white;
+    font-size: 4vh;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.home_left h2{
+    color: white;
+    font-size: 3.5vh;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.home_right{
+    width: 50%;
+    height: 100%;
+}
+.home_right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+.home_container {
+    display: flex;
+    height: 75vh;
+    /* The content should vertically align in the center */
+    align-items: center;
+    /* Adjust margin for responsiveness */
+    margin: 0 auto;
+}
+
+.home_left {
+    width: 50%;
+    height: 100%;
+    padding: 45px 90px;
+    line-height: 38px;
+}
+
+.home_left h1 {
+    color: yellow;
+    font-size: 6vh;
+    font-weight: bold;
+}
+
+.home_left p {
+    color: white;
+    font-size: 4vh;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.home_left h2 {
+    color: white;
+    font-size: 3.5vh;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.home_right {
+    width: 50%;
+    height: 100%;
+}
+
+.home_right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Responsive adjustments for screens smaller than 768px (tablets, small laptops) */
+@media (max-width: 768px) {
+    .home_container {
+        flex-direction: column; /* Stack the content vertically */
+        height: auto; /* Let height adjust dynamically */
+    }
+
+    .home_left {
+        width: 100%;
+        padding: 20px 40px;
+        line-height: 1.5; /* Adjust line height for readability */
+        text-align: center;
+    }
+
+    .home_left h1 {
+        font-size: 5vh;
+    }
+
+    .home_left p {
+        font-size: 3.5vh;
+        margin-top: 15px;
+    }
+
+    .home_left h2 {
+        font-size: 3vh;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .home_right {
+        width: 100%;
+        height: auto;
+    }
+
+    .home_right img {
+        height: auto; /* Maintain aspect ratio */
+        object-fit: contain;
+    }
+}
+
+/* Responsive adjustments for mobile devices smaller than 480px (mobile phones) */
+@media (max-width: 480px) {
+    .home_container {
+        margin-top: 50px;
+        height: auto;
+    }
+
+    .home_left {
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .home_left h1 {
+        font-size: 3.5vh;
+    }
+
+    .home_left p {
+        font-size: 2.5vh;
+        margin-top: 10px;
+    }
+
+    .home_left h2 {
+        font-size: 2.5vh;
+        margin-top: 5px;
+    }
+
+    .home_right {
+        width: 100%;
+        height: auto;
+    }
+
+    .home_right img {
+        height: auto;
+        object-fit: cover; /* Ensure image fits properly */
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    .home_container {
+        margin-top: 50px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .home_left {
+        width: 60%;
+        padding: 10px 30px;
+    }
+
+    .home_left h1 {
+        font-size: 2vh;
+    }
+
+    .home_left p {
+        font-size: 1.5vh;
+        margin-top: 10px;
+        line-height: 50px;
+    }
+
+    .home_left h2 {
+        font-size: 1vh;
+        margin-top: 20px;
+        margin-left: 3px;
+    }
+
+    .home_right {
+        width: 40%;
+        height: auto;
+    }
+
+    .home_right img {
+        height: auto;
+        object-fit: cover; /* Ensure image fits properly */
+    }
+}
