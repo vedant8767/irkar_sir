@@ -29,7 +29,7 @@ export default function AchievementPage(){
                          <AchievementCard title="03" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat illo deleniti aut, blanditiis nostrum quibusdam in ipsam fuga impedit dicta?"/>
                          <AchievementCard title="04" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat illo deleniti aut, blanditiis nostrum quibusdam in ipsam fuga impedit dicta?"/>
                 </div>
-                <div className="achievement_right"  data-aos="flip-right">
+                <div className="achievement_right"   data-aos="flip-right">
                     <div className="top">
                         <div className="acheviement_circle">
                             <img src={school} alt="img" srcset="" /></div>

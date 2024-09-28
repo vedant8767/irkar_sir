@@ -37,6 +37,7 @@
     object-fit: cover;
 } */
 .home_container {
+    border-bottom: 2px solid black;
     display: flex;
     height: 75vh;
     /* The content should vertically align in the center */
@@ -53,13 +54,18 @@
 }
 
 .home_left h1 {
-    color: yellow;
+    /* color: orangered; */
+    /* color: #001F3F; */
+    /* color: yellow; */
+    color:  #FFD700 ;
     font-size: 6vh;
     font-weight: bold;
 }
 
 .home_left p {
     color: white;
+    /* color: #001F3F; */
+    /* color: black; */
     font-size: 4vh;
     font-weight: bold;
     margin-top: 20px;
@@ -67,6 +73,8 @@
 
 .home_left h2 {
     color: white;
+    /* color: #AAAAAA; */
+    /* color: blue; */
     font-size: 3.5vh;
     margin-left: 50px;
     margin-top: 10px;
@@ -128,6 +136,7 @@
     .home_container {
         margin-top: 50px;
         height: auto;
+        width: 100%;
     }
 
     .home_left {

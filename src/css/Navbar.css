@@ -50,6 +50,7 @@
     width: 25px;
     height: 3px;
     background-color: white;
+    /* background-color: black; */
     border-radius: 5px;
 }
 .closebutton{
@@ -87,10 +88,12 @@
 /* Responsive behavior for smaller screens */
 @media (max-width: 768px) {
     .btn{
-        background-color: grey;
+        /* background-color: grey; */
+        background-color: black;
         font-size: 3vh;
     }
     .navbar {
+        color: white;
         flex-direction: row;
         justify-content: space-between;
         padding: 10px 20px;
@@ -112,7 +115,8 @@
         top: 0px; /* Adjust based on navbar height */
         right: 0;
         width: 100%;
-        background-color: grey;
+        /* background-color: grey; */
+        background-color: black;
         padding: 20px;
         text-align: center;
     }
