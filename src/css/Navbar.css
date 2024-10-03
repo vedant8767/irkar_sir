@@ -64,7 +64,8 @@
     display: none;
 }
 .btn{
-    background-color:#919199;
+    /* background-color:#919199; */
+    background-color: #BDBDBD;
     outline: none;
     border: none;
     font-size: 4.5vh;

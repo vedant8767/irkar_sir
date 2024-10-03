@@ -1,4 +1,5 @@
 import sir_image from '../../assets/self_image.jpg'
+import sir from '../../assets/sir.png'
 import '../../css/Home.css'
 import AchievementPage from '../AchievementPage'
 import Experience from '../Experience'
@@ -19,7 +20,7 @@ export default function Home() {
                 </div>
                 <div className="home_right"  data-aos="fade-up"
      data-aos-easing="linear">
-                    <img src={sir_image} alt="" srcset="" />
+                    <img src={sir} alt="" srcset="" />
                 </div>
             </div>
             <Experience/>

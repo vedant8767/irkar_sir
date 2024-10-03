@@ -66,6 +66,7 @@ export default function Experience() {
                 const options = { duration: 5 }; // Increase duration to slow down the count (5 seconds)
                 new CountUp('clientsCount', 122, options).start();
                 new CountUp('projectsCount', 602, options).start();
+                new CountUp('projects', 601, options).start();
                 new CountUp('seminarsCount', 300, options).start();
     
                 // Set the flag to true so counting only happens once
@@ -81,7 +82,9 @@ export default function Experience() {
 
     return (
         <div className="experience_container" data-aos="fade-up">
-            <h1>Experience</h1>
+            <div className="top_experience">
+                <h1>Experience</h1>
+            </div>
             <div className="exp_info">
                 <div className="exp_img" data-aos="fade-up-right">
                     <img src={expimg} alt="" />
@@ -99,6 +102,10 @@ export default function Experience() {
                         </div>
                         <div className="eachcount">
                             <h1 id="projectsCount">0</h1>
+                            <h2>Projects</h2>
+                        </div>
+                        <div className="eachcount">
+                            <h1 id="projects">0</h1>
                             <h2>Projects</h2>
                         </div>
                         <div className="eachcount">
