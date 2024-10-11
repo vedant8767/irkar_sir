@@ -13,7 +13,8 @@
     height: 400px;
     position: absolute;
     object-fit: contain;
-    top: 70px;
+    /* top: 70px; */
+    top: 20px;
     left: 260px;
     z-index: 1;
 }
@@ -33,6 +34,7 @@
     font-size: 4.5vh;
    position: relative;
    padding: 25px 17px;
+   /* color: black; */
 }
 .lekh_content{
     display: flex;
@@ -46,7 +48,8 @@
     font-weight: 800;
     font-size: 3.5vh;
     width: 90%;
-    color: white;
+    /* color: white; */
+    color: black;
     line-height: 37px;
 }
 .lekhcards{

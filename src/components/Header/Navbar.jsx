@@ -151,7 +151,8 @@ export default function Navbar() {
 
     return (
         <div className="navbar">
-            <Logo />
+            {/* <Logo /> */}
+            <h1>Mahadev Irkar</h1>
             <div className={`navItems ${isOpen ? "open" : ""}`}>
                 <ul>
                     {

@@ -23,6 +23,12 @@
     align-items: center;
     padding: 10px;
     z-index:1000;
+    position: absolute;
+    gap: 60px;
+}
+.navbar h1{
+    margin-left: 30px;
+    color: white;
 }
 
 .navItems ul {
@@ -32,18 +38,20 @@
     color: white;
     font-size: 5vh; /* Adjusted font size for better responsiveness */
     display: flex;
-    gap: 35px;
+    gap: 20px;
     justify-content: center;
     align-items: center;
     padding: 10px;
     cursor: pointer;
 }
 
+
 .hamburger {
     display: none;
     flex-direction: column;
     cursor: pointer;
     gap: 5px;
+    /* background-color: black; */
 }
 
 .hamburger .bar {
@@ -58,19 +66,25 @@
     gap: 5px;
     position: absolute;
     top:10px;
-    left: 10px;
+    right: 20px;
     font-weight: bold;
     font-size: 3vh;
     display: none;
+    color: white;
 }
 .btn{
     /* background-color:#919199; */
-    background-color: #BDBDBD;
+    /* background-color: #BDBDBD; */
+    /* background-color: white; */
+    /* color:black; */
+    /* background-color: aqua; */
+    color: white;
     outline: none;
     border: none;
     font-size: 4.5vh;
     font-weight: bold;
-    color: aliceblue;
+    background-color: transparent;
+    /* color: aliceblue; */
     cursor: pointer;
     transition-duration: 200ms;
     padding-left: 24px; /* Equivalent to px-6 */
@@ -92,9 +106,11 @@
         /* background-color: grey; */
         background-color: black;
         font-size: 3vh;
+        color: white;
     }
     .navbar {
-        color: white;
+        /* color: white; */
+        color: black;
         flex-direction: row;
         justify-content: space-between;
         padding: 10px 20px;
@@ -107,6 +123,7 @@
     }
     .navItems ul{
         height: 100%;
+        /* color: black; */
     }
 
     .navItems ul {
@@ -118,6 +135,7 @@
         width: 100%;
         /* background-color: grey; */
         background-color: black;
+        color: white;
         padding: 20px;
         text-align: center;
     }
@@ -139,14 +157,20 @@
     .navItems ul {
         font-size: 2vh;
         gap: 20px;
+        /* color: white; */
     }
 
     .navbar {
         padding: 15px 12px;
+        position: absolute;
+        top: 2px;
+    }
+    .navbar h1{
+        font-size: 3vh;
     }
     
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .btn{
         background-color: grey;
         font-size: 3vh;
