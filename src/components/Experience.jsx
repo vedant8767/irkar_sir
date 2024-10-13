@@ -40,7 +40,9 @@
 // }
 import React, { useEffect, useState } from 'react';
 import '../css/Experience.css';
-import expimg from '../assets/self_image.jpg';
+import expimg from '../assets/exp_image.jpg';
+// import expimg from '../assets/self_image.jpg';
+// import expimg from '../assets/self_image.jpg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { CountUp } from 'countup.js';
@@ -81,7 +83,7 @@ export default function Experience() {
     
 
     return (
-        <div className="experience_container" data-aos="fade-up">
+        <div className="experience_container">
             <div className="top_experience">
                 <h1>Experience</h1>
             </div>

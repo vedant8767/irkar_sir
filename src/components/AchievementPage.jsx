@@ -11,6 +11,7 @@ import acheivement from '../assets/acheivement.png'
 import achievement from '../assets/achievement.png'
 import readingbook from '../assets/readingbook.png'
 import self_image from '../assets/self_image.jpg'
+import expimg from '../assets/exp_image.jpg';
 
 import AchievementCard from "./AchievementCard";
 
@@ -40,7 +41,7 @@ export default function AchievementPage(){
                     <div className="middle">
                         <div className="border">
                             <div className="middle_circle">
-                                <img src={self_image} alt="" srcset="" />
+                                <img src={expimg} alt="" srcset="" />
                             </div>
                         </div>
                     </div>

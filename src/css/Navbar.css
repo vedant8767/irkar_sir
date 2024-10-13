@@ -164,6 +164,8 @@
         padding: 15px 12px;
         position: absolute;
         top: 2px;
+        width: 100%;
+        background-color: black;
     }
     .navbar h1{
         font-size: 3vh;

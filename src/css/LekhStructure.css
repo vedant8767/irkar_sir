@@ -176,7 +176,7 @@
 @media (max-width: 480px) {
     
     .lekh_container{
-        margin-top: 240px;
+        margin-top: 270px;
         width: 100%;
     }
     .lekh_image {
@@ -185,7 +185,7 @@
         height: 400px;
         object-fit: cover;
         left: 100px;
-        top: 120px;
+        top: 40px;
         /* background-color: aqua; */
     }
 
@@ -194,11 +194,13 @@
         height: 100px;
         margin-left: 50px;
         margin-top: -180px;
+        /* color: white; */
     }
 
     .lekh_title h1 {
         padding: 25px 27px;
         font-size: 4vh;
+        /* color: whitesmoke; */
     }
     .lekh_content{
         justify-content: center;
@@ -218,6 +220,7 @@
         font-size: 2.7vh;
         width: 90%;
         margin-top: 20px;
+        color: white;
     }
 
     .eachcard {
@@ -263,6 +266,7 @@
     .lekh_content p {
         font-size: 1vh;
         line-height: 60px;
+        color: white;
     }
 
     .eachcard {
