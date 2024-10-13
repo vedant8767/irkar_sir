@@ -275,7 +275,7 @@
     .home_container{
         height: 100vh;
         background-image: url("../assets/mobile.png");
-        background-size: contain;
+        background-size: cover;
     } 
     .home_content{
         display: none;
