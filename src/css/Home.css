@@ -271,3 +271,13 @@
     text-align: center;
     font-weight: 500;
 }
+@media (max-width: 480px) {
+    .home_container{
+        height: 100vh;
+        background-image: url("../assets/mobile.png");
+        background-size: contain;
+    } 
+    .home_content{
+        display: none;
+    }
+}
