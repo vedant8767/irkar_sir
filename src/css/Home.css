@@ -238,12 +238,13 @@
     background-image: url("../assets/home.jpg");
     background-size: cover;
     background-repeat:no-repeat ;
+    border-bottom: 1px solid black;
 }
 .home_content{
     position: absolute;
     display: flex;
     flex-direction: column;
-    padding: 50px 30px;
+    padding: 50px 60px;
     border-radius: 5px;
     background-color: hsla(0, 0%, 100%, 0.3);
     /* top: 150px;

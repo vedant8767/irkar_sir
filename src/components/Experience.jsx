@@ -84,6 +84,38 @@ export default function Experience() {
 
     return (
         <div className="experience_container">
+            <div className="top_experience">
+                <h1>EXPERIENCE</h1>
+            </div>
+            <div className="exp_top_delow">
+                <h2>महादेव   इरकर
+                </h2>
+            </div>
+            <div className="exp_content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Inventore aliquam dolores nam corporis a cupiditate est minima maxime quia. 
+                        Voluptate, delectus sunt repellat nemo asperiores assumenda eaque laborum.
+                    </p>
+                    <div className="counts">
+                        <div className="eachcount">
+                            <h1 id="clientsCount">0</h1>
+                            <h2>Clients</h2>
+                        </div>
+                        <div className="eachcount">
+                            <h1 id="projectsCount">0</h1>
+                            <h2>Projects</h2>
+                        </div>
+                        <div className="eachcount">
+                            <h1 id="projects">0</h1>
+                            <h2>Projects</h2>
+                        </div>
+                        <div className="eachcount">
+                            <h1 id="seminarsCount">0</h1>
+                            <h2>Seminars</h2>
+                        </div>
+                    </div>
+            </div>
             {/* <div className="top_experience">
                 <h1>Experience</h1>
             </div>
