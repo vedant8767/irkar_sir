@@ -84,7 +84,7 @@ export default function Experience() {
 
     return (
         <div className="experience_container">
-            <div className="top_experience">
+            {/* <div className="top_experience">
                 <h1>Experience</h1>
             </div>
             <div className="exp_info">
@@ -116,7 +116,7 @@ export default function Experience() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }

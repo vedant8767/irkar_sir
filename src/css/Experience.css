@@ -1,28 +1,21 @@
-.experience_container{
+/* .experience_container{
     border-bottom: 2px solid black;
     padding: 0px 0px;
-    /* background-color: #f7f6f3; */
     background-color: #D9D9D9;
 }
 .top_experience{
     height: 100px;
-    /* background-color: #a6a6a6; */
     background-color: grey;
-    /* background: linear-gradient(to right, blue 30%, lightblue 60%); */
-    /* background: linear-gradient(to right, #93A5CF, #E4EFE9); */
-
 }
 .experience_container h1{
     font-size: 7vh;
     margin-left: 50px;
     padding: 20px;
-    /* color: brown; */
     color: black;
 }
 .exp_img{
     height: 320px;
     width: 1150px;
-    /* background-color: aquamarine; */
     margin:20px;
     border-radius: 180px 180px 35px 35px;
     border: 2px solid black;
@@ -62,13 +55,11 @@
     background-color: white;
     border-radius: 10px;
     align-items: center;
-    /* justify-content: center; */
     padding: 0px 0px;
 }
 .eachcount h1{
     margin-left: 0px;
     font-size: 5.5vh;
-    /* color: brown; */
     color: black;
 }
 .eachcount h2{
@@ -79,20 +70,16 @@
     margin-bottom: 20px;
 }
 
-
-/* Responsive adjustments for screens smaller than 768px (tablets, small laptops) */
 @media (max-width: 768px) {
     .experience_container{
         align-items: center;
         justify-content: center;
-        /* padding: 20px 50px; */
     }
     .exp_info{
         padding: 0px;
         flex-direction: column;
     }
     .exp_img{
-        /* margin-left: -10px; */
         width: 300px;
         margin-left: -75px;
     }
@@ -114,12 +101,10 @@
     }
 }
 
-/* Responsive adjustments for mobile devices smaller than 480px (mobile phones) */
 @media (max-width: 480px) {
     .experience_container{
         align-items: center;
         justify-content: center;
-        /* padding: 20px 50px; */
     }
     .top_experience{
         width: 100%;
@@ -128,9 +113,6 @@
         font-size: 4vh;
         margin-left: 5px;
     }
-    /* .exp_img{
-        margin-left: -50px;
-    } */
     .counts{
         width: 100%;
         gap: 0px;
@@ -147,9 +129,7 @@
     }
     .exp_content{
         justify-content: center;
-        /* align-items: center; */
         width: 100%;
-        /* margin-left: 0px; */
     }
     .exp_content p{
         padding: 0px;
@@ -197,7 +177,7 @@
     .eachcount h1{
         font-size: 2vh;
     }
-  }
+} */
   
 
 /* @media (max-width: 1200px)  {
@@ -224,3 +204,13 @@
     }
 } */
 
+.experience_container{
+    width: 100%;
+    height: 100vh;
+    background: url('../assets/exp_main.jpg');
+    background-size: cover ;
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 480px) {
+}

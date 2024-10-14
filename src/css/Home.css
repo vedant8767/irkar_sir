@@ -247,7 +247,7 @@
     top: 150px;
     left: 180px;
     width: 540px;
-    height: 330px;
+    height: auto;
     color: white;
 }
 .home_content h1 {
@@ -274,7 +274,7 @@
 @media (max-width: 480px) {
     .home_container{
         height: 100vh;
-        background-image: url("../assets/mobile.png");
+        background-image: url("../assets/mobile_final.png");
         background-size: cover;
     } 
     .home_content{
