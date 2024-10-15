@@ -232,51 +232,84 @@
         object-fit:cover;
     }
 } */
+ /* Add these lines to your Home.css or index.css */
+ .carousel_item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; /* Adjust the height as per your requirement */
+}
+
+.carousel_item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
 .home_container{
-    /* width: 300vw; */
     height: 100vh;
     background-image: url("../assets/home.jpg");
     background-size: cover;
-    background-repeat:no-repeat ;
+    /* background-position: center center; */
+    background-repeat: no-repeat;
+    /* background-size: cover;
+    background-repeat:no-repeat ; */
     border-bottom: 1px solid black;
 }
+/* .home_container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    border-bottom: 1px solid black;
+}
+
+.home_container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container without cropping */
+    /* z-index: -1; Makes the image act like a background 
+} */
 .home_content{
     position: absolute;
     display: flex;
     flex-direction: column;
-    padding: 50px 60px;
-    border-radius: 5px;
+    padding: 40px 30px;
+    border-radius: 15px;
     background-color: hsla(0, 0%, 100%, 0.3);
     /* top: 150px;
     left: 185px; */
     /* top: 50%; */
     /* left: -50px; */
-        /* left: 0%;
-        transform: translate(-85%, -40%);  */
-    top: 26%;
-    width: 600px;
-    left: 140px;
+    /* left: 0%;
+    transform: translate(-85%, -40%);  */
+    top: 29%;
+    width: 42%;
+    left: 230px;
     height: auto;
     color: white;
+    align-items: center;
 }
 .home_content h1 {
     font-family: 'Mukta', sans-serif;
     font-size: 6vh;
     font-weight: 700;
-    margin-left: 70px;
+    /* margin-left: 70px; */
 }
 
 .home_content p {
     font-size: 4vh;
     font-family: 'Baloo 2', cursive;
     font-weight: 500;
-    margin-left: 30px;
+    /* margin-left: 30px; */
     margin-top: 20px;
 }
 
 .home_content h2 {
     font-size: 3.5vh;
-    margin-left: 1px;
+    /* margin-left: 1px; */
     text-align: center;
     font-weight: 500;
 }
