@@ -207,8 +207,9 @@
 .experience_container{
     width: 100%;
     height: 100vh;
-    background: url('../assets/exp.jpg');
+    background: url('../assets/experience.png');
     background-size: cover ;
+    color: white;
 }
 .top_experience{
     font-size: 9.5vh;
@@ -226,6 +227,7 @@
 .exp_content p{
     font-size: 4vh;
     font-weight: 600;
+    color: white;
 }
 .exp_top_delow{
     margin-left: 300px;
@@ -246,7 +248,7 @@
     .experience_container{
         width: 100%;
         /* height: auto; */
-        background: url('../assets//exp.jpg');
+        background: url('../assets//experience.png');
         background-size:cover ;
         background-repeat: no-repeat;
     }
@@ -281,9 +283,10 @@
 /* For phones (max-width: 480px) */
 @media (max-width: 480px) {
     .experience_container{
+        /* position: relative; */
         margin-top: 1px;
         width: 100%;
-        height: 100vh;
+        height: auto;
         background: url('../assets//expmob.png');
         background-size:cover ;
         background-repeat: no-repeat;
@@ -296,6 +299,9 @@
 
     .exp_content {
         width: 90%;
+        /* position: absolute; */
+        /* top: 0px; */
+        /* bottom: 0%; */
         margin-top: 330px;
         /* margin: 0 auto; */
         padding: 25px;
@@ -303,6 +309,7 @@
 
     .exp_content p {
         font-size: 2.5vh;
+        color: black;
     }
 
     .exp_top_delow {
@@ -319,9 +326,11 @@
 
     .counts h1{
         font-size: 3vh;
+        color: black;
     }
     .counts h2 {
         font-size: 2vh;
+        color: black;
     }
 }
 

@@ -3,8 +3,15 @@ import leftflower from '../../assets/cutleft.png'
 import rightflower from '../../assets/cutright.png'
 import bubble from '../../assets/lekhbg.png'
 import '../../css/LekhStructure.css'
+import { useEffect } from 'react'
 
 export default function LekhStructure(){
+    useEffect(()=>{
+        var navbar = document.querySelector('.navbar');
+    
+    // Set the position property to an empty string
+    navbar.style.position = 'relative';
+      },[])
     return(
         <div className="lekh_container">
             <img src={handimage} alt="" className='lekh_image' />

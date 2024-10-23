@@ -114,7 +114,8 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    background-color: white;
+    /* background-color: white; */
+    background-color: black;
     margin-top: 0px;
 }
 .recent_activity h1{

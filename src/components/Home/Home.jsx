@@ -51,8 +51,15 @@ import crop from '../../assets/crop.jpg'
 import '../../css/Home.css'
 import AchievementPage from '../AchievementPage'
 import Experience from '../Experience'
+import { useEffect } from 'react'
 
 export default function Home() {
+    useEffect(()=>{
+        var navbar = document.querySelector('.navbar');
+    
+    // Set the position property to an empty string
+    navbar.style.position = 'absolute';
+      },[])
     return(
         <>
             <div className="home_container">

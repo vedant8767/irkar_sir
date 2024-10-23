@@ -1,9 +1,15 @@
 // 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import '../css/ContactPage.css';
 import { useForm } from 'react-hook-form';
 
 export default function ContactPage() {
+  useEffect(()=>{
+    var navbar = document.querySelector('.navbar');
+
+// Set the position property to an empty string
+navbar.style.position = 'relative';
+  },[])
   const [formError, setFormError] = useState('');
 
   const {
