@@ -6,7 +6,7 @@
 .lekh_container{
     /* background-color: aqua; */
     margin-top: 120px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     background: linear-gradient(to bottom, #ffffff, #9fcfff, #5fa5f7);
     /* background-color: black; */
 }
@@ -22,41 +22,49 @@
 }
 
 .lekh_title{
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     background-color: ghostwhite;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     margin-left: 150px;
     margin-top: 50px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 .lekh_title h1{
     font-size: 4.5vh;
    position: relative;
-   padding: 25px 17px;
+   /* padding: 25px 17px; */
    /* color: black; */
 }
 .lekh_content{
     display: flex;
     flex-direction: column;
-    margin-left: 150px;
-    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 150px; */
+    margin-top: 60px;
     padding: 10px 20px;
+    gap:30px;
 }
 .lekh_content p{
     font-family: 'ShreeDevanagari714', serif;
     font-weight: 800;
     font-size: 3.5vh;
-    width: 90%;
-    color: white;
-    /* color: black; */
+    width: 80%;
+    /* color: white; */
+    color: black;
     line-height: 37px;
 }
 .lekhcards{
     margin-top: 20px;
     display: flex;
+    /* align-items: center; */
+    justify-content: center;
     gap: 30px;
 }
 .eachcard{
@@ -248,7 +256,7 @@
     .lekh_container{
         /* height: 100vh; */
         margin-top: 200px;
-        margin-bottom: 100px;
+        /* margin-bottom: 100px; */
     }
     .lekh_image {
         height: 500px;

@@ -8,9 +8,14 @@ import mid from '../assets/mid.png'
 import { useEffect } from 'react'
 
 export default function RecentActivityPage (){
-    // useEffect(()=>{document.querySelectorAll('.btn').forEach(function(button) {
-    //     button.style.color = 'black';
-    // });},[])
+    useEffect(()=>{
+        var navbar = document.querySelector('.navbar');
+        document.querySelectorAll('.btn').forEach(function(button) {
+            button.style.color = 'crimson';
+        });
+        document.querySelector('.navbar h1').style.color = 'crimson';
+        navbar.style.position = 'relative';
+    },[])
     // useEffect(()=>{
     //     AOS.init({
     //         // Add options here, if needed

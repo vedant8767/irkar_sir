@@ -6,9 +6,11 @@ import { useForm } from 'react-hook-form';
 export default function ContactPage() {
   useEffect(()=>{
     var navbar = document.querySelector('.navbar');
-  //   document.querySelectorAll('.btn').forEach(function(button) {
-  //     button.style.color = 'black';
-  // });
+    document.querySelectorAll('.btn').forEach(function(button) {
+      button.style.color = 'crimson';
+  });
+  document.querySelector('.navbar h1').style.color = 'crimson';
+
 
 // Set the position property to an empty string
 navbar.style.position = 'relative';

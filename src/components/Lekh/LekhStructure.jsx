@@ -8,9 +8,11 @@ import { useEffect } from 'react'
 export default function LekhStructure(){
     useEffect(()=>{
         var navbar = document.querySelector('.navbar');
-        // document.querySelectorAll('.btn').forEach(function(button) {
-        //     button.style.color = 'black';
-        // });
+        document.querySelectorAll('.btn').forEach(function(button) {
+            button.style.color = 'crimson';
+        });
+        document.querySelector('.navbar h1').style.color = 'crimson';
+
         
     
     // Set the position property to an empty string
