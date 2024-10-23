@@ -56,6 +56,9 @@ import { useEffect } from 'react'
 export default function Home() {
     useEffect(()=>{
         var navbar = document.querySelector('.navbar');
+        // document.querySelectorAll('.btn').forEach(function(button) {
+        //     button.style.color = 'white';
+        // });
     
     // Set the position property to an empty string
     navbar.style.position = 'absolute';
@@ -65,7 +68,7 @@ export default function Home() {
             <div className="home_container">
             <div className="home_content">
                     <h1 data-aos="fade-up">Dr. Mahadeo Dinkar Irkar</h1>
-                    <h2 data-aos="fade-up">( BA , B.ED , MA , NET , SET )</h2>
+                    <h2 data-aos="fade-up">( MA.M.Ed.PHD.SET/NET )</h2>
                     <p data-aos="fade-up">
                         "शिक्षक हा समाजाचा शिल्पकार असतो. तो विद्यार्थ्यांना ज्ञान, 
                         कौशल्ये व मूल्ये शिकवतो.शिक्षक आपल्या विद्यार्थ्यांचे भविष्य 

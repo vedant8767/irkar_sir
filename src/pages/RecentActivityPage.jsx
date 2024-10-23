@@ -8,6 +8,9 @@ import mid from '../assets/mid.png'
 import { useEffect } from 'react'
 
 export default function RecentActivityPage (){
+    // useEffect(()=>{document.querySelectorAll('.btn').forEach(function(button) {
+    //     button.style.color = 'black';
+    // });},[])
     // useEffect(()=>{
     //     AOS.init({
     //         // Add options here, if needed
