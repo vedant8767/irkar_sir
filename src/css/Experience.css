@@ -336,22 +336,54 @@
 
 /* For tablets in landscape (min-width: 768px) and (max-width: 1023px) */
 @media (min-width: 768px) and (max-width: 1023px) {
+    .experience_container{
+        position: relative;
+        margin-top: 1px;
+        width: 100%;
+        height: 100vh;
+        background: url('../assets//expmob.png');
+        background-size:cover ;
+        background-repeat: no-repeat;
+    }
     .top_experience {
-        font-size: 6.5vh;
-        margin-left: 0;
+        font-size: 3.5vh;
+        /* text-align: center; */
+        margin-left: 10px;
     }
 
     .exp_content {
-        width: 70%;
-        margin: 0 auto;
+        width: 90%;
+        position: absolute;
+        /* top: 0px; */
+        bottom: 0%;
+        margin-top: 330px;
+        /* margin: 0 auto; */
+        padding: 25px;
+    }
+
+    .exp_content p {
+        font-size: 2.5vh;
+        color: black;
     }
 
     .exp_top_delow {
-        margin-left: 0;
-        text-align: center;
+        /* margin-left: 0; */
+        text-align: end;
+        margin-right: 10px;
+        margin-top: -20px;
     }
 
     .counts {
-        gap: 20px;
+        /* flex-direction: ; */
+        gap: 19px;
+    }
+
+    .counts h1{
+        font-size: 3vh;
+        color: black;
+    }
+    .counts h2 {
+        font-size: 2vh;
+        color: black;
     }
 }
