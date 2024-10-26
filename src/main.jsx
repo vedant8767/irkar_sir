@@ -7,6 +7,7 @@ import ContactPage from './pages/ContactPage.jsx'
 import RecentActivityPage from './pages/RecentActivityPage.jsx'
 import LekhPage from './pages/LekhPage.jsx'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import CardDetail from './components/DetailedCard.jsx'
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
             path: "/contact",
             element:<ContactPage/>
         },
+        {
+          path:"/card-detail",
+          element:<CardDetail/>
+        }
       ]
 },
 ])
