@@ -11,10 +11,11 @@ export default function RecentActivityPage (){
     useEffect(()=>{
         var navbar = document.querySelector('.navbar');
         document.querySelectorAll('.btn').forEach(function(button) {
-            button.style.color = 'crimson';
+            button.style.color = 'white';
         });
-        document.querySelector('.navbar h1').style.color = 'crimson';
+        document.querySelector('.navbar h1').style.color = 'white';
         navbar.style.position = 'relative';
+        navbar.style.backgroundColor = 'black';
     },[])
     // useEffect(()=>{
     //     AOS.init({

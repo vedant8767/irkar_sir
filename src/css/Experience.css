@@ -206,7 +206,7 @@
 
 .experience_container{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background: url('../assets/experience.png');
     background-size: cover ;
     color: white;
@@ -281,7 +281,13 @@
 }
 
 /* For phones (max-width: 480px) */
-@media (max-width: 480px) {
+@media (max-width:767px) and (orientation: landscape){
+    .exp_content p{
+        font-size: 4vh;
+        color: aquamarine;
+    }
+}
+@media (max-width: 768px) {
     .experience_container{
         /* position: relative; */
         margin-top: 1px;
@@ -336,6 +342,54 @@
 
 /* For tablets in landscape (min-width: 768px) and (max-width: 1023px) */
 @media (min-width: 768px) and (max-width: 1023px) {
+    /* .experience_container{
+        position: relative;
+        margin-top: 1px;
+        width: 100%;
+        height: 100vh;
+        background: url('../assets//expmob.png');
+        background-size:cover ;
+        background-repeat: no-repeat;
+    }
+    .top_experience {
+        font-size: 3.5vh;
+        margin-left: 10px;
+    }
+
+    .exp_content {
+        width: 90%;
+        position: absolute;
+        bottom: 0%;
+        margin-top: 330px;
+        padding: 25px;
+    }
+
+    .exp_content p {
+        font-size: 2.5vh;
+        color: black;
+    }
+
+    .exp_top_delow {
+        text-align: end;
+        margin-right: 10px;
+        margin-top: -20px;
+    }
+
+    .counts {
+        gap: 19px;
+    }
+
+    .counts h1{
+        font-size: 3vh;
+        color: black;
+    }
+    .counts h2 {
+        font-size: 2vh;
+        color: black;
+    } */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
     .experience_container{
         position: relative;
         margin-top: 1px;
@@ -347,17 +401,14 @@
     }
     .top_experience {
         font-size: 3.5vh;
-        /* text-align: center; */
         margin-left: 10px;
     }
 
     .exp_content {
         width: 90%;
         position: absolute;
-        /* top: 0px; */
         bottom: 0%;
         margin-top: 330px;
-        /* margin: 0 auto; */
         padding: 25px;
     }
 
@@ -367,14 +418,12 @@
     }
 
     .exp_top_delow {
-        /* margin-left: 0; */
         text-align: end;
         margin-right: 10px;
         margin-top: -20px;
     }
 
     .counts {
-        /* flex-direction: ; */
         gap: 19px;
     }
 
@@ -385,5 +434,5 @@
     .counts h2 {
         font-size: 2vh;
         color: black;
-    }
+    } 
 }

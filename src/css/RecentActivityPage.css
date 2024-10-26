@@ -108,7 +108,9 @@
         gap: 30px;
     }
 } */
-
+.recent_activity_container{
+    min-height: 100vh;
+}
 .recent_activity{
     display: flex;
     flex-direction: column;
@@ -124,7 +126,8 @@
 }
 .recent_container{
     display: flex;
-    gap: 20px;
+    flex-wrap: wrap;
+    gap: 30px;
     margin-top: 100px;
 }
 .recent_eachcard{
@@ -187,7 +190,7 @@
 }
 
 /* For larger screens and tablets (max-width: 1024px) */
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
     .recent_container {
       gap: 15px;
       margin-top: 50px;
@@ -218,11 +221,12 @@
       height: 170px;
     }
   }
-  
+   */
   /* For mobile screens (max-width: 768px) */
-  @media (max-width: 768px) {
+  @media  (max-width: 768px) {
     .recent_activity h1 {
       font-size: 4vh;
+      color: black;
     }
   
     .recent_container {
@@ -236,10 +240,7 @@
       width: 80%;
       height: auto;
     }
-    /* .recent_eachcard p{
-        /* font-size: 2vh;;
-    } */ 
-  
+   
     .card_content p {
       font-size: 2vh;
       font-weight: 500;
@@ -272,7 +273,7 @@
     /* .recent_activity_container{
         height: auto;
     } */
-    .recent_activity h1{
+    /* .recent_activity h1{
         font-size: 4vh;
         margin-top: 100px;
     }
@@ -284,6 +285,94 @@
     }
     .recent_eachcard{
         height: auto;
-        /* height: 40%; */
-    }
+    } */
+    .recent_activity h1 {
+        font-size: 4vh;
+        color: black;
+      }
+    
+      .recent_container {
+        flex-direction: column;
+        gap: 120px;
+        margin-top: 100px;
+        align-items: center;
+      }
+    
+      .recent_eachcard {
+        width: 80%;
+        height: auto;
+      }
+     
+      .card_content p {
+        font-size: 4vh;
+        font-weight: 500;
+        padding: 10px 10px;
+      }
+    
+      .card_circle {
+        width: 170px;
+        height: 170px;
+        margin-top: -80px;
+      }
+    
+      .recent_images {
+        margin-top: -30px;
+      }
+    
+      .recent_left_flower img,
+      .recent_right_flower img {
+        width: 80px;
+        height: 130px;
+      }
+    
+      .recent_mid_image img {
+        width: 200px;
+        height: 130px;
+      }
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+    .recent_activity h1 {
+        font-size: 4vh;
+        color: black;
+      }
+    
+      .recent_container {
+        flex-direction: column;
+        gap: 150px;
+        margin-top: 100px;
+        align-items: center;
+      }
+    
+      .recent_eachcard {
+        width: 80%;
+        height: auto;
+      }
+     
+      .card_content p {
+        font-size: 1.5vh;
+        font-weight: 500;
+        padding: 10px 10px;
+      }
+    
+      .card_circle {
+        width: 250px;
+        height: 250px;
+        margin-top: -80px;
+      }
+    
+      .recent_images {
+        margin-top: -30px;
+      }
+    
+      .recent_left_flower img,
+      .recent_right_flower img {
+        width: 200px;
+        height: 200px;
+      }
+    
+      .recent_mid_image img {
+        width: 400px;
+        height: 290px;
+      }
   }

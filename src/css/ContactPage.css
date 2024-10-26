@@ -197,8 +197,13 @@ form button {
         padding: 8px;
     }
 }  */
-
+.main_contact{
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 50px;
+}
 .contact_container{
+    /* min-height: 100vh; */
     /* position: absolute;
     top: 50px; */
     margin-left: 20%;
@@ -336,8 +341,12 @@ form button {
 
 
 @media (min-width: 768px) and (max-width: 1023px){
+    .contact_container{
+        margin-left: 10px;
+        width: 95%;
+    }
 
-    .contact_container {
+    /* .contact_container {
         margin-left: 5%;
         width: 90%;
         margin-top: 150px;
@@ -364,7 +373,6 @@ form button {
       .mid_section {
         flex-direction: column;
         gap: 70px;
-        /* margin-top: 20px; */
         margin-left: 70px;
       }
       .mid_left, .mid_right form {
@@ -401,7 +409,7 @@ form button {
       .bottom_section h1 {
           padding: 20px 40px;
         font-size: 2vh;
-      }
+      } */
 }
 
 @media (max-width: 768px) {
@@ -455,6 +463,70 @@ form button {
       font-size: 2.5vh;
     }
   
+    .bottom_section h1 {
+        padding: 20px 40px;
+      font-size: 2vh;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+    .icon_circle{
+        width: 100px;
+        height: 100px;
+    }
+    .contact_container {
+        margin-top: 50px;
+      margin-left: 5%;
+      width: 90%;
+    }
+    .top_section{
+        margin-top: 20px;
+        align-items: start;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    
+    .top_section h1 {
+      font-size: 4vh;
+      margin-left: 30px;
+    }
+  
+    .top_section h2 {
+      font-size: 6vh;
+      margin-left: 120px;
+      margin-top: -15px;
+    }
+  
+    .mid_section {
+      flex-direction: column;
+      gap: 30px;
+      /* margin-top: 20px; */
+      margin-left: 25px;
+    }
+  
+    .mid_left, .mid_right form {
+      font-size: 2vh;
+    }
+  
+    .mid_right form input,
+    .mid_right form textarea {
+      width: 90%;
+      height: 100px;
+      font-size: 2vh;
+    }
+  
+    .mid_right form button {
+      font-size: 2vh;
+      height: 80px;
+      width:90%;
+    }
+  
+    .icon_container p {
+      font-size: 2.5vh;
+    }
+  
+    .bottom_section{
+        height: 200px;
+    }
     .bottom_section h1 {
         padding: 20px 40px;
       font-size: 2vh;

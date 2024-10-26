@@ -4,6 +4,7 @@
     src: url('../assets//AMS\ Aaditya\ Regular.ttf') format('truetype');
   }
 .lekh_container{
+    min-height: 100vh;
     /* background-color: aqua; */
     margin-top: 120px;
     /* margin-bottom: 30px; */
@@ -63,6 +64,7 @@
 .lekhcards{
     margin-top: 20px;
     display: flex;
+    flex-wrap: wrap;
     /* align-items: center; */
     justify-content: center;
     gap: 30px;
@@ -117,7 +119,7 @@
 /* Responsive Styles */
 
 /* For devices with max-width 1024px (Tablets) */
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
     .lekh_image {
         width: 100%;
         left: 0;
@@ -146,11 +148,11 @@
         width: 180px;
         height: 200px;
     }
-}
+} */
 
 /* For devices with max-width 768px (Large smartphones) */
 @media (max-width: 768px) {
-    .lekh_image {
+    /* .lekh_image {
         height: 250px;
     }
     .eachcard{
@@ -180,11 +182,11 @@
     .eachcard h1 {
         font-size: 2vh;
         padding: 15px;
-    }
+    } */
 }
 
 /* For devices with max-width 480px (Small smartphones) */
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     
     .lekh_container{
         margin-top: 270px;
@@ -255,9 +257,15 @@
 
 @media (min-width: 768px) and (max-width: 1023px){
     .lekh_container{
-        /* height: 100vh; */
+        width: 100%;
+    }
+    .lekh_image{
+        width: 500px;
+        height: 400px;
+        left: 200px;
+    }
+    /* .lekh_container{
         margin-top: 200px;
-        /* margin-bottom: 100px; */
     }
     .lekh_image {
         height: 500px;
@@ -294,5 +302,74 @@
     .half_circle{
         width: 100px;
         height: 50px;
+    } */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+
+    .lekh_container{
+        margin-top: 390px;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    .lekh_image {
+        /* position: relative; */
+        width: 400px;
+        height: 700px;
+        object-fit: cover;
+        left: 400px;
+        top: 0px;
+        /* background-color: aqua; */
+    }
+
+    .lekh_title {
+        width: 200px;
+        height: 200px;
+        margin-left: 50px;
+        margin-top: -180px;
+        /* color: white; */
+    }
+
+    .lekh_title h1 {
+        padding: 25px 27px;
+        font-size: 4vh;
+        /* color: whitesmoke; */
+    }
+    .lekh_content{
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        margin-top: 100px;
+    }
+    .lekhcards{
+        margin-top: 60px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lekh_content p {
+        line-height: 80px;
+        font-size: 2vh;
+        width: 90%;
+        margin-top: 20px;
+        color: black;
+        /* color: white; */
+    }
+
+    .eachcard {
+        width: 80%;
+        height: 400px;
+    }
+
+    .eachcard h1 {
+        font-size: 3vh;
+        padding: 45px 63px;
+    }
+
+    .half_circle {
+        width: 270px;
+        height: 130px;
+        margin-left: 210px;
     }
 }

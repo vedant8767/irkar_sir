@@ -148,7 +148,7 @@
 
 .achievement_container{
     border-top: 10px solid white;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background:url('../assets/ach.png');
     background-size: cover;
@@ -192,7 +192,7 @@
     display: none;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .achievement_container{
         border-top: 2px solid black;
         background: none;
@@ -252,7 +252,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023px){
-    .achievement_container{
+    /* .achievement_container{
         border-top: 2px solid black;
         background: none;
         background-color: #000000;
@@ -276,7 +276,6 @@
     .acheviement_mobile{
         display: block;
         width: 100%;
-        /* height: 100vh; */
     }
     .ach_middle{
         width: 100%;
@@ -307,5 +306,63 @@
         color: white;
         font-size: 2.2vh;
         font-weight: 500;
+    } */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+    .achievement_container{
+        border-top: 2px solid black;
+        background: none;
+        background-color: #000000;
     }
+    .achievement_container h1{
+        color: black;
+        font-size: 5vh;
+        text-align: center;
+        background-color: white;
+        margin-left: 0px;
+    }
+    .achievement_bottom{
+        display: none;
+    }
+    .achievement_box{
+        display: none;
+    }
+    .white_line{
+        display: none;
+    }
+    .acheviement_mobile{
+        display: block;
+        width: 100%;
+    }
+    .ach_middle{
+        width: 100%;
+        height: auto;
+    }
+    .ach_middle img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .ach_top{
+        background: linear-gradient(to bottom, white,  #DEDEDE);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        color: black;
+        font-size: 2.2vh;
+        font-weight: 500;
+    }
+    .ach_bottom{
+        margin-top: -10px;
+        background: linear-gradient(to top, #000000, #5B5B5B);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        color: white;
+        font-size: 2.2vh;
+        font-weight: 500;
+    } 
 }

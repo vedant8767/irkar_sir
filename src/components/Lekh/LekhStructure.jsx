@@ -78,10 +78,11 @@ export default function LekhStructure(){
     useEffect(() => {
         var navbar = document.querySelector('.navbar');
         document.querySelectorAll('.btn').forEach(function(button) {
-            button.style.color = 'crimson';
+            button.style.color = 'white';
         });
-        document.querySelector('.navbar h1').style.color = 'crimson';
+        document.querySelector('.navbar h1').style.color = 'white';
         navbar.style.position = 'relative';
+        navbar.style.backgroundColor = 'black';
     }, []);
 
     // Function to handle card click

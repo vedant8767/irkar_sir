@@ -7,9 +7,10 @@ export default function ContactPage() {
   useEffect(()=>{
     var navbar = document.querySelector('.navbar');
     document.querySelectorAll('.btn').forEach(function(button) {
-      button.style.color = 'crimson';
+      button.style.color = 'white';
   });
-  document.querySelector('.navbar h1').style.color = 'crimson';
+  document.querySelector('.navbar h1').style.color = 'white';
+  navbar.style.backgroundColor = 'black';
 
 
 // Set the position property to an empty string
@@ -57,7 +58,8 @@ navbar.style.position = 'relative';
   };
 
   return (
-    <div className="contact_container" data-aos="zoom-in">
+    <div className="main_contact">
+      <div className="contact_container" data-aos="zoom-in">
       <div className="top_section">
         <h1>LETS'S CONNECT</h1>
         <h2>WITH US!</h2>
@@ -142,6 +144,7 @@ navbar.style.position = 'relative';
       <div className="bottom_section">
         <h1>We're here to assist you on your website journey!</h1>
       </div>
+    </div>
     </div>
   );
 }

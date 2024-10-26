@@ -98,9 +98,13 @@
     border-radius: 9999px;
 }
 .btn:hover{
-    border:1px solid black; 
+    background-color: rgba(255, 255, 255, 0.3); 
+    /* background-color:white;
+    opacity: 0.5; */
+    /* color: black; */
+    /* border:1px solid black;  */
     /* background-color: cornflowerblue; */
-    color: yellow;
+    /* color: yellow; */
 }
 
 

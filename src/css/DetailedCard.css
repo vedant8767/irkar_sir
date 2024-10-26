@@ -1,6 +1,9 @@
 .DetailedCard_Container{
-    width: 100%;
-    height: 100vh;
+    /* width: 100%; */
+    /* height: auto; */
+    /* max-height: auto; */
+    /* overflow-y:hidden; */
+    min-height: 100vh;
     background-color: seashell;
     padding: 20px;
     display: flex;
@@ -13,7 +16,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
     justify-content: center;
     padding: 10px;
   }
@@ -103,11 +106,13 @@
   .close:focus {
     color: #fff;
   }
-  
+  .DetailedCard_Container h1{
+    text-align: center;
+  }
   /* Responsive Styles */
   
   /* Medium screens (Tablets, iPads) */
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     .pdf-card {
       width: 160px;
       padding: 15px;
@@ -115,10 +120,13 @@
     .modal-content {
       width: 90%;
     }
-  }
+  } */
   
   /* Small screens (Mobile devices) */
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
+    .DetailedCard_Container h1{
+      font-size: 3.5vh;
+    }
     .allcards {
       flex-direction: column;
       align-items: center;
@@ -157,4 +165,57 @@
       background-color:aliceblue;
     }
   }
-  
+  @media (min-width: 768px) and (max-width: 1024px){
+    .modal-content {
+      width: 95%;
+      height: 100vh; /* Full viewport height for mobile devices */
+      border-radius: 0; /* Remove rounded corners for fullscreen effect */
+    }
+    .modal-content iframe {
+      height: calc(100vh - 40px); /* Adjust iframe height for padding */
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+    .DetailedCard_Container h1{
+      font-size: 3.5vh;
+    }
+    .allcards {
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+    }
+    .pdf-card {
+      width: 80%;
+      height:100%;
+      /* max-width: 300px; */
+      padding: 30px;
+    }
+    .modal-content {
+      width: 95%;
+      height: 100vh; /* Full viewport height for mobile devices */
+      border-radius: 0; /* Remove rounded corners for fullscreen effect */
+    }
+    .modal-content iframe {
+      height: calc(100vh - 40px); /* Adjust iframe height for padding */
+    }
+    .close {
+      font-size: 22px;
+    }
+    .pdf-card h3{
+      font-size: 3vh;
+    }
+    .pdf-card p{
+      font-size: 2.5vh;
+      font-weight: 500;
+      /* width: 80%; */
+    }
+    .pdf-card button{
+      border: none;
+      outline: none;
+      padding: 10px;
+      font-size: 2vh;
+      font-weight: 700;
+      border-radius: 3px;
+      background-color:aliceblue;
+    }
+  }

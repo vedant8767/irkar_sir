@@ -61,6 +61,8 @@ export default function Home() {
         });
         document.querySelector('.navbar h1').style.color = 'white';    
     // Set the position property to an empty string
+    navbar.style.backgroundColor = 'transparent';
+    navbar.style.width ='100%';
     navbar.style.position = 'absolute';
       },[])
     return(
