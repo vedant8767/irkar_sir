@@ -32,27 +32,27 @@ export default function RecentActivityPage (){
             <div className="recent_activity">
                 <h1>Recent Activity</h1>
                 <div className="recent_container">
-                    <div className="recent_eachcard" data-aos="fade-up">
+                    <div className="recent_eachcard" data-aos="fade-up" onClick={()=>gotoyt('k-8H4R3e-QE')}>
                         <div className="card_circle">
-                            <img src={self_image} alt="" />
+                            <img src="https://img.youtube.com/vi/k-8H4R3e-QE/hqdefault.jpg" alt="image" />
                         </div>
                         <div className="card_content">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eligendi soluta minima error 
                                 beatae accusantium labore architecto, amet reprehenderit dolorem.</p>
                         </div>
                     </div>
-                    <div className="recent_eachcard" data-aos="fade-up">
+                    <div className="recent_eachcard" data-aos="fade-up" onClick={()=>gotoyt('1TpvtbUEBGA')}>
                         <div className="card_circle">
-                        <img src={self_image} alt="" />
+                        <img src="https://img.youtube.com/vi/1TpvtbUEBGA/hqdefault.jpg" alt="" />
                         </div>
                         <div className="card_content">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eligendi soluta minima error 
                         beatae accusantium labore architecto, amet reprehenderit dolorem.</p>
                         </div>
                     </div>
-                    <div className="recent_eachcard" data-aos="fade-up">
+                    <div className="recent_eachcard" data-aos="fade-up" onClick={()=>gotoyt('vgjdaSf62ak')}>
                         <div className="card_circle">
-                        <img src={self_image} alt="" />
+                        <img src="https://img.youtube.com/vi/vgjdaSf62ak/hqdefault.jpg" alt="" />
                         </div>
                         <div className="card_content">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eligendi soluta minima error 

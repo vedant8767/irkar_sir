@@ -247,7 +247,7 @@
     object-fit: cover;
 }
 .home_container{
-    height: 100vh;
+    min-height: 100vh;
     background-image: url("../assets/home.jpg");
     background-size: cover;
     /* background-position: center center; */
@@ -318,6 +318,7 @@
         height: 100vh;
         background-image: url("../assets/mobile_final.png");
         background-size: cover;
+        background-position: center;
     } 
     .home_content{
         width: 85%;
@@ -354,6 +355,11 @@
         left: 50%;
         transform: translate(-50%, 0%); 
     }
+    .home_container{
+        /* background-size: contain; */
+        background-position:center;
+    }
+    
     /* .home_container{
         height: 100vh;
         background-image: url("../assets/mobile.png");
@@ -386,6 +392,7 @@
         height: 100vh;
         background-image: url("../assets/mobile.png");
         background-size: cover;
+        /* background-position: center; */
     } 
     .home_content{
         width: 85%;
@@ -400,6 +407,7 @@
     .home_content h1{
         margin-left: 0px;
         font-size: 2.5vh;
+        /* color: aqua; */
     }
     .home_content p{
         font-size: 1.8vh;

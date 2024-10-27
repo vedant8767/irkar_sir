@@ -141,7 +141,7 @@
     width: 350px;
     height: 300px;
     border-radius: 7px;
-    
+    cursor: pointer;
 }
 .card_content{
     font-size: 3vh;
@@ -160,7 +160,9 @@
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    object-fit: contain;
+    object-fit: fill;
+    object-position: center;
+    /* object-fit: contain; */
 }
 .recent_images{
     display: flex;

@@ -188,6 +188,10 @@
     padding: 30px;
     font-size: 3.7vh;
 }
+.achievement_box p{
+    line-height: 40px;
+    font-weight: 700;
+}
 .acheviement_mobile {
     display: none;
 }

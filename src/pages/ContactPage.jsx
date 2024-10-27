@@ -101,7 +101,7 @@ navbar.style.position = 'relative';
               {...register('name', {
                 required: 'Name is required',
                 pattern: {
-                  value: /^[A-Za-z]+$/,
+                  value: /^[A-Za-z\s]+$/,
                   message: 'Name should not contain numbers or special characters',
                 },
               })}
@@ -116,7 +116,7 @@ navbar.style.position = 'relative';
               {...register('email', {
                 required: 'Email is required',
                 pattern: {
-                  value: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
+                  value:/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z]{2,}$/,
                   message: 'Please enter a valid email address',
                 },
               })}

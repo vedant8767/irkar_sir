@@ -69,18 +69,16 @@ export default function AchievementPage (){
         <div className="white_line"></div>
         <div className="achievement_box">
             <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-            Numquam adipisci deserunt minus voluptatibus reiciendis, 
-            nulla obcaecati esse aperiam, in nihil ipsam libero repellat quis, 
-            nam perferendis vero corporis asperiores? Esse?
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-            Numquam adipisci deserunt minus voluptatibus reiciendis, 
-            nulla obcaecati esse aperiam, in nihil ipsam libero repellat quis, 
-            nam perferendis vero corporis asperiores? Esse?
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-            Numquam adipisci deserunt minus voluptatibus reiciendis, 
-            nulla obcaecati esse aperiam, in nihil ipsam libero repellat quis, 
-            nam perferendis vero corporis asperiores? Esse?
+            1. ज्ञानभूषण पुरस्कार २०११, महात्मा गांधी मिशन प्रतिष्ठान, बीड.<br />
+            2. तुषार सन्मान पुरस्कार, उत्कृष्ट कथालेखन, वसई <br />
+            3. राज्यस्तरीय यशवंतरत्न पुरस्कार २०१७, जय मल्हार समजाजिक प्रतिष्ठान, बीड <br />
+            4. कोविड योद्धा पुरस्कार, शिवचरण उज्जैनकर फॉउंडेशन, मुक्ताईनगर, जळगाव <br />
+            5. दैनिक यशवंत राज्यस्तरीय ग्रंथ परीक्षण स्पर्धा २०२२ - उदगीर, जि. लातूर - प्रथम क्रमांक <br />
+            6. कोकण मराठी साहित्य परिषद २०१२, कथाकथान - प्रथम क्रमांक <br />
+            7. महाराष्ट्र राज्य साहित्य परिषद, पिंपरी चिंचवड, पुणे २०१९, कविता - तृतीय क्रमांक <br />
+            8. वसई तालुका कला - क्रीडा महोत्सव, प्रश्नमंजुषा स्पर्धा, खुला गट - प्रथम क्रमांक <br /> 
+            9. आभाळमाया साहित्य संमेलन, काव्यवाचन स्पर्धा २०२२ - द्वितीय क्रमांक <br />
+            10. महाराष्ट्र राज्य माध्यमिक व उच्च माध्यमिक शिक्षण मंडळ, पुणे, राज्यस्तरीय निबंध स्पर्धा, २०२०-२१ - पाचवा क्रमांक <br />
             </p>
         </div>
         <div className="achievement_bottom">
@@ -90,20 +88,24 @@ export default function AchievementPage (){
         </div>
         <div className="acheviement_mobile">
           <div className="ach_top">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt repellendus veritatis
-             eum nisi eveniet fuga omnis minima ratione dolore autem. Adipisci,
-            doloremque ea? Facilis odio et quisquam repudiandae ipsum quaerat incidunt doloribus quidem, 
-            facere debitis.Non aperiam qui voluptatum amet.
+          <p>
+            1. ज्ञानभूषण पुरस्कार २०११, महात्मा गांधी मिशन प्रतिष्ठान, बीड  <br />
+            2. तुषार सन्मान पुरस्कार, उत्कृष्ट कथालेखन, वसई <br />
+            3. राज्यस्तरीय यशवंतरत्न पुरस्कार २०१७, जय मल्हार समजाजिक प्रतिष्ठान, बीड <br />
+            4. कोविड योद्धा पुरस्कार, शिवचरण उज्जैनकर फॉउंडेशन, मुक्ताईनगर, जळगाव <br />
+            5. दैनिक यशवंत राज्यस्तरीय ग्रंथ परीक्षण स्पर्धा २०२२ - उदगीर, जि. लातूर - प्रथम क्रमांक <br />
           </p>
           </div>
           <div className="ach_middle">
             <img src={ach_mobile} alt="" />
           </div>
           <div className="ach_bottom">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt repellendus veritatis
-             eum nisi eveniet fuga omnis minima ratione dolore autem. Adipisci,
-            doloremque ea? Facilis odio et quisquam repudiandae ipsum quaerat incidunt doloribus quidem, 
-            facere debitis.Non aperiam qui voluptatum amet.
+          <p>
+            6. कोकण मराठी साहित्य परिषद २०१२, कथाकथान - प्रथम क्रमांक <br />
+            7. महाराष्ट्र राज्य साहित्य परिषद, पिंपरी चिंचवड, पुणे २०१९, कविता - तृतीय क्रमांक <br />
+            8. वसई तालुका कला - क्रीडा महोत्सव, प्रश्नमंजुषा स्पर्धा, खुला गट - प्रथम क्रमांक  <br />
+            9. आभाळमाया साहित्य संमेलन, काव्यवाचन स्पर्धा २०२२ - द्वितीय क्रमांक <br />
+            10. महाराष्ट्र राज्य माध्यमिक व उच्च माध्यमिक शिक्षण मंडळ, पुणे, राज्यस्तरीय निबंध स्पर्धा, २०२०-२१ - पाचवा क्रमांक
           </p>
           </div>
 
