@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import '../css/ContactPage.css';
 import { useForm } from 'react-hook-form';
+import { Helmet } from 'react-helmet-async';
 
 export default function ContactPage() {
   useEffect(()=>{
@@ -59,6 +60,11 @@ navbar.style.position = 'relative';
 
   return (
     <div className="main_contact">
+      <Helmet>
+      <title>Mahadeo irkar contact </title>
+      <meta name="description" content="Viva college,Facebook, LinkedIn, Instagram, yt video, viva college professor,vasai" />
+      <link rel="canonical" href='/contact'/>
+      </Helmet>
       <div className="contact_container" data-aos="zoom-in">
       <div className="top_section">
         <h1>LETS'S CONNECT</h1>

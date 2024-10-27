@@ -6,6 +6,7 @@ import mid from '../assets/mid.png'
 // import AOS from 'aos';
 // import 'aos/dist/aos.css';
 import { useEffect } from 'react'
+import { Helmet } from 'react-helmet-async'
 
 export default function RecentActivityPage (){
     useEffect(()=>{
@@ -29,6 +30,11 @@ export default function RecentActivityPage (){
     }
     return(
         <div className="recent_activity_container">
+            <Helmet>
+            <title>Mahadeo irkar activity </title>
+            <meta name="description" content="Recent activity of mahadeo irkar such as speech, yt video, meet up with Prakash amte" />
+            <link rel="canonical" href='https://irkar-sir.vercel.app/recentactivity'/>
+            </Helmet>
             <div className="recent_activity">
                 <h1>Recent Activity</h1>
                 <div className="recent_container">

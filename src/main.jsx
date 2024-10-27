@@ -8,6 +8,7 @@ import RecentActivityPage from './pages/RecentActivityPage.jsx'
 import LekhPage from './pages/LekhPage.jsx'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import CardDetail from './components/DetailedCard.jsx'
+import {HelmetProvider} from 'react-helmet-async'
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,9 @@ const router = createBrowserRouter([
 ])
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router}/>
+    <HelmetProvider>
+      <RouterProvider router={router}/>
+    </HelmetProvider>
+    {/* <RouterProvider router={router}/> */}
   </StrictMode>,
 )

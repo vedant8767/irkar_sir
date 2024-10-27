@@ -120,6 +120,7 @@ import { useLocation } from 'react-router-dom';
 import '../css/DetailedCard.css';
 import { useState, useEffect, useRef } from "react";
 import { getlekh } from '../firebase/firebase';
+import {Helmet} from 'react-helmet-async'
 
 export default function CardDetail() {
     const iframeRef = useRef(null);
@@ -185,6 +186,11 @@ export default function CardDetail() {
 
     return (
         <div className='DetailedCard_Container'>
+            <Helmet>
+            <title>Marathi Lekh</title>
+            <meta name="description" content="writer,poet,marathi writer,Lekhak, kavi mahadeo irkar,Kavita , sahitya,smaj sudhark, lok sanskruti, mendhpal dhnagar jivan shaili lekhan" />
+            <link rel="canonical" href='https://irkar-sir.vercel.app/card-detail'/>
+            </Helmet>
             <h1>{displaytitle}</h1>
             <div>
                 <ul className="allcards">
