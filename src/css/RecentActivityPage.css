@@ -116,7 +116,8 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    background-color: white;
+    background-color: #f0f7ff;
+    /* background-color: white; */
     /* background-color: black; */
     /* margin-top: 100px; */
 }
@@ -131,22 +132,31 @@
     margin-top: 100px;
 }
 .recent_eachcard{
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to left, #CFD9DF, #E2EBF0);
+    /* background: linear-gradient(to left, #CFD9DF, #E2EBF0); */
     /* background-color: #f1efd7; */
     width: 350px;
     height: 300px;
     border-radius: 7px;
     cursor: pointer;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  color: #333333;
+  border-radius: 15px;
+  border-color:2px solid #cfd8dc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .card_content{
     font-size: 3vh;
     font-weight: 400;
     padding: 20px 30px;
+}
+.card_content p{
+  font-weight: 900;
+  color: #333333;
 }
 .card_circle{
     margin-top: -90px;
@@ -244,8 +254,8 @@
     }
    
     .card_content p {
-      font-size: 2vh;
-      font-weight: 500;
+      font-size: 2.2vh;
+      font-weight: 600;
       padding: 10px 10px;
     }
   

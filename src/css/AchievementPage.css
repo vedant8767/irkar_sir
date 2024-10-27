@@ -239,8 +239,9 @@
         align-items: center;
         padding: 20px;
         color: black;
-        font-size: 2.2vh;
-        font-weight: 500;
+        font-size: 2.5vh;
+        font-weight: 800;
+        line-height: 35px;
     }
     .ach_bottom{
         margin-top: -10px;
@@ -250,8 +251,9 @@
         align-items: center;
         padding: 20px;
         color: white;
-        font-size: 2.2vh;
-        font-weight: 500;
+        font-size: 2.5vh;
+        font-weight: 800;
+        line-height: 35px;
     }
 }
 
