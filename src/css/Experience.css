@@ -211,6 +211,29 @@
     background-size: cover ;
     color: white;
 }
+.scrollable-box {
+    width: 100%;
+    max-height: 300px; /* Set your desired height */
+    overflow-y: auto; /* Enables vertical scroll */
+    background-color: transparent; /* Transparent white */
+    padding: 15px;
+    border-radius: 8px;
+    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Optional scrollbar styling for modern browsers */
+.scrollable-box::-webkit-scrollbar {
+    width: 0px;
+}
+.scrollable-box::-webkit-scrollbar-thumb {
+    background: #919199; /* Scrollbar thumb color */
+    border-radius: 4px;
+}
+.scrollable-box::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1); /* Scrollbar track color */
+}
 .top_experience{
     font-size: 9.5vh;
     margin-left: 10px;
@@ -435,4 +458,25 @@
         font-size: 2vh;
         color: black;
     } 
+}
+
+@media (min-width: 1920px) {
+    .exp_content{
+        gap: 60px;
+    }
+    .exp_top_delow h2{
+        font-size: 3.5vh;
+    }
+    .scrollable-box{
+        max-height: 700px;
+    }
+    .scrollable-box p{
+        font-size: 4vh;
+    }
+    .eachcount h1{
+        font-size: 4vh;
+    }
+    .eachcount h2{
+        font-size: 4vh;
+    }
 }

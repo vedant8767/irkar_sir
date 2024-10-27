@@ -370,3 +370,10 @@
         font-weight: 500;
     } 
 }
+
+@media (min-width: 1920px) {
+    .achievement_box p{
+        font-size: 4vh;
+        line-height: 90px;
+    }
+}

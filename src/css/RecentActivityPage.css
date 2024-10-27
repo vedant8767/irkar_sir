@@ -378,3 +378,29 @@
         height: 290px;
       }
   }
+
+  @media (min-width: 1920px) {
+    .recent_container{
+      margin-top: 200px;
+    }
+    .card_circle{
+      margin-top: -240px;
+      height: 350px;
+      width: 350px;
+    }
+    .recent_eachcard{
+      height: 700px;
+      width: 700px;
+    }
+    .recent_left_flower img{
+      width: 300px;
+      height: 400px;
+    }
+    .recent_right_flower img{
+      width: 300px;
+      height: 400px;
+    }
+    .recent_mid_image img{
+      height: 500px;
+    }
+  }

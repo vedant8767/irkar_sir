@@ -267,3 +267,22 @@
         display: flex;
     }
 }
+@media (min-width: 1920px) {
+    .navbar h1{
+        font-size: 4vh;
+    }
+    .navbar{
+        width: 100%;
+        gap: 10px;
+        justify-content:space-evenly;
+        /* background-color: aqua; */
+    }
+    .btn{
+        font-size: 4vh;
+        padding: 20px;
+        /* background-color: black; */
+    }
+    .navItems{
+        gap: 20px;
+    }
+}

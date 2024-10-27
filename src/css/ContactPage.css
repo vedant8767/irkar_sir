@@ -533,3 +533,25 @@ form button {
       font-size: 2vh;
     }
   }
+
+  @media (min-width: 1920px) {
+    .mid_right form input{
+        width: 400px;
+        height: 100px;
+    }
+    .mid_right form textarea{
+        width: 400px;
+        height: 100px;
+    }
+    .mid_right form button{
+        width: 400px;
+        height: 100px;
+    }
+    .bottom_section{
+        height: 250px;
+    }
+    .icon_circle{
+        width: 80px;
+        height: 80px;
+    }
+  }
