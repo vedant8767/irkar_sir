@@ -1,15 +1,15 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, addDoc, getDocs, doc, deleteDoc, updateDoc, serverTimestamp } from "firebase/firestore"; 
 import { getStorage, ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
-
+import conf from '../conf/conf'
 const firebaseConfig = {
-    apiKey: "AIzaSyBtG8juhIlSLaYFcrWY-2rSyEqRA0qu5fw",
-    authDomain: "reactpdf-9e7a0.firebaseapp.com",
-    projectId: "reactpdf-9e7a0",
-    storageBucket: "reactpdf-9e7a0.appspot.com",
-    messagingSenderId: "484538958066",
-    appId: "1:484538958066:web:11dc992a491aa645d4906b",
-    measurementId: "G-ZCQ3B1XJXR"
+    apiKey: conf.firebaseapiKey,
+    authDomain: conf.firebaseauthDomain,
+    projectId: conf.firebaseProjectId,
+    storageBucket: conf.firebaseStorageBucket,
+    messagingSenderId: conf.firebasemessagingSenderId,
+    appId: conf.firebaseappId,
+    measurementId: conf.firebasemeasurmentId
 };
   
 const app = initializeApp(firebaseConfig);

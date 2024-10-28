@@ -137,13 +137,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background: linear-gradient(to left, #CFD9DF, #E2EBF0); */
+    background: linear-gradient(to left, #CFD9DF, #E2EBF0);
     /* background-color: #f1efd7; */
     width: 350px;
     height: 300px;
     border-radius: 7px;
     cursor: pointer;
-    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    /* background: linear-gradient(135deg, #f5f7fa, #c3cfe2); */
   color: #333333;
   border-radius: 15px;
   border-color:2px solid #cfd8dc;
