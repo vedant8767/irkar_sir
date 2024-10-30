@@ -147,12 +147,16 @@ export default function Navbar() {
             name: "Contact",
             slug: "/contact",
         },
+        {
+            name: "Gallery",
+            slug : "/gallery",
+        }
     ];
 
     return (
         <div className="navbar">
             {/* <Logo /> */}
-            <h1>Mahadeo Irkar</h1>
+            <h1>Dr. Mahadeo Irkar</h1>
             <div className={`navItems ${isOpen ? "open" : ""}`}>
                 <ul>
                     {

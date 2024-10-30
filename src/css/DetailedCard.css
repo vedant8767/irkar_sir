@@ -11,6 +11,14 @@
     align-items: center;
     flex-direction: column;
 }
+.allcards a{
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+  background-color: aliceblue;
+  padding: 7px 8px;
+  border-radius: 5px;
+}
 
 .allcards {
     display: flex;

@@ -1,0 +1,30 @@
+.gallery_container{
+    min-height: 100vh;
+    padding: 20px;
+}
+.gallery_container h1{
+    font-size: 8vh;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+@media  (max-width: 768px) {
+    .gallery_container h1{
+        font-size: 3.5vh;     
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .gallery_container h1{
+        font-size: 4vh;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+    
+}
+
+@media  (min-width: 1920px) {
+
+}

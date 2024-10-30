@@ -198,7 +198,12 @@ export default function CardDetail() {
                         <li key={pdf.id} className="pdf-card">
                             <h3>{pdf.title}</h3>
                             <p>{pdf.description}</p>
-                            <button onClick={() => handleReadPdf(pdf)}>Read Lekh</button>
+                            {pdf.fileUrl && ( 
+                                <button onClick={() => handleReadPdf(pdf)}>Read Lekh</button>
+                            )}
+                            {pdf.lekhUrl && ( 
+                                <a href={pdf.lekhUrl}>Read Lekh</a>
+                            )}
                         </li>
                     ))}
                 </ul>

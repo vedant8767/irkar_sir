@@ -9,6 +9,7 @@ import LekhPage from './pages/LekhPage.jsx'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import CardDetail from './components/DetailedCard.jsx'
 import {HelmetProvider} from 'react-helmet-async'
+import GalleryPage from './pages/GalleryPage.jsx'
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
         {
           path:"/card-detail",
           element:<CardDetail/>
+        },
+        {
+          path:"/gallery",
+          element:<GalleryPage/>
         }
       ]
 },

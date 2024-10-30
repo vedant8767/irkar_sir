@@ -5,10 +5,14 @@ import rightflower from '../assets/rightflower.png'
 import mid from '../assets/mid.png'
 // import AOS from 'aos';
 // import 'aos/dist/aos.css';
-import { useEffect } from 'react'
+import {getRecentActivity} from '../firebase/firebase'
+import { useEffect, useState } from 'react'
 import { Helmet } from 'react-helmet-async'
 
 export default function RecentActivityPage (){
+
+    const [activityList,setActivity]=useState([])
+    const [loading, setLoading] = useState(true);
     useEffect(()=>{
         var navbar = document.querySelector('.navbar');
         document.querySelectorAll('.btn').forEach(function(button) {
@@ -18,13 +22,25 @@ export default function RecentActivityPage (){
         navbar.style.position = 'relative';
         navbar.style.backgroundColor = 'black';
     },[])
-    // useEffect(()=>{
-    //     AOS.init({
-    //         // Add options here, if needed
-    //         duration: 1500, // Animation duration in milliseconds
-    //         once: true, // Whether animation should happen only once or every time you scroll
-    //       });
-    // },[])
+    useEffect(() => {
+        const fetchactivity = async () => {
+            try {
+                    const activityList = await getRecentActivity();
+                    if (activityList) {
+                        setActivity(activityList);
+                        setLoading(false)
+                    } else {
+                        console.log("no activity available");
+                    }
+            } 
+            catch (error) {
+                console.error('Error fetching activity data:', error);
+            }
+        };
+
+        fetchactivity();
+    },[]);
+
     function gotoyt(videoId){
         window.location.href = `https://www.youtube.com/watch?v=${videoId}`;
     }
@@ -38,33 +54,31 @@ export default function RecentActivityPage (){
             <div className="recent_activity">
                 <h1>Recent Activity</h1>
                 <div className="recent_container">
-                    <div className="recent_eachcard" data-aos="fade-up" onClick={()=>gotoyt('k-8H4R3e-QE')}>
+                {loading ? (
+            <div className="loader"></div> // Display the CSS spinner
+        ) : (
+            activityList.length > 0 ? (
+                activityList.map((activity, index) => (
+                    <div key={index} className="recent_eachcard" data-aos="fade-up" onClick={() => gotoyt(activity.videoid)}>
                         <div className="card_circle">
-                            <img src="https://img.youtube.com/vi/k-8H4R3e-QE/hqdefault.jpg" alt="image" />
+                            <img src={activity.thumbnail} alt="image" />
                         </div>
                         <div className="card_content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eligendi soluta minima error 
-                                beatae accusantium labore architecto, amet reprehenderit dolorem.</p>
+                            <p>
+                                {
+                                    activity.description
+                                        .split(" ")
+                                        .slice(0, 25)
+                                        .join(" ") + (activity.description.split(" ").length > 15 ? "..." : "")
+                                }
+                            </p>
                         </div>
                     </div>
-                    <div className="recent_eachcard" data-aos="fade-up" onClick={()=>gotoyt('1TpvtbUEBGA')}>
-                        <div className="card_circle">
-                        <img src="https://img.youtube.com/vi/1TpvtbUEBGA/hqdefault.jpg" alt="" />
-                        </div>
-                        <div className="card_content">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eligendi soluta minima error 
-                        beatae accusantium labore architecto, amet reprehenderit dolorem.</p>
-                        </div>
-                    </div>
-                    <div className="recent_eachcard" data-aos="fade-up" onClick={()=>gotoyt('vgjdaSf62ak')}>
-                        <div className="card_circle">
-                        <img src="https://img.youtube.com/vi/vgjdaSf62ak/hqdefault.jpg" alt="" />
-                        </div>
-                        <div className="card_content">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eligendi soluta minima error 
-                        beatae accusantium labore architecto, amet reprehenderit dolorem.</p>
-                        </div>
-                    </div>
+                ))
+            ) : (
+                <div>No activities found.</div>
+            )
+        )}
                 </div>
                 <div className='recent_images'>
                     <div className="recent_left_flower">

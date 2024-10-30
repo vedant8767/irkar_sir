@@ -59,7 +59,7 @@
     width: 80%;
     /* color: white; */
     color: black;
-    line-height: 37px;
+    line-height: 45px;
 }
 .lekhcards{
     margin-top: 20px;
@@ -83,7 +83,7 @@
 }
 .eachcard h1{
     text-align: center;
-    font-size: 3.5vh;
+    font-size: 3vh;
     padding-top: 30px;
     /* padding: 15px 10px; */
 }
@@ -151,6 +151,17 @@
 } */
 
 /* For devices with max-width 768px (Large smartphones) */
+@media (max-width:468px) {
+    /* .lekh_image{
+        object-fit: contain;
+        left: 20px;
+        height: 100px;
+        width: 100px;
+    }
+    .lekh_title h1{
+        color: #5fa5f7;
+    } */
+}
 @media (max-width: 768px) {
     /* .lekh_image {
         height: 250px;

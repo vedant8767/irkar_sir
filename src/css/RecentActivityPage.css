@@ -108,6 +108,21 @@
         gap: 30px;
     }
 } */
+
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 .recent_activity_container{
     min-height: 100vh;
 }
@@ -159,7 +174,7 @@
   color: #333333;
 }
 .card_circle{
-    margin-top: -90px;
+    margin-top: -100px;
     width: 180px;
     height: 180px;
     border-radius: 50%;

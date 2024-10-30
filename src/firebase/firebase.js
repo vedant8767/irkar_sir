@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { getFirestore, collection, addDoc, getDocs, doc, deleteDoc, updateDoc, serverTimestamp } from "firebase/firestore"; 
+import { getFirestore, collection, addDoc, getDocs, doc, deleteDoc, updateDoc, serverTimestamp,query,orderBy } from "firebase/firestore"; 
 import { getStorage, ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import conf from '../conf/conf'
 const firebaseConfig = {
@@ -26,4 +26,28 @@ export async function getlekh(collection_name) {
         console.error('Error fetching PDF data:', error);
       }
 }
-  
+export async function getRecentActivity() {
+  try {
+      const activityCollection = collection(db,'recentactivity');
+      const activitySnapshot = await getDocs(activityCollection);
+      const activityList = activitySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+      console.log(activityList)
+      return activityList
+    } catch (error) {
+      console.error('Error fetching activity data:', error);
+    }
+}
+
+export async function getGallery() {
+  try {
+    const galleryCollection = collection(db, 'gallery');
+    const galleryQuery = query(galleryCollection, orderBy('createdAt', 'desc'));
+    const gallerySnapshot = await getDocs(galleryQuery);
+    const galleryList = gallerySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+    
+    console.log(galleryList);
+    return galleryList;
+  } catch (error) {
+      console.error('Error fetching gallery data:', error);
+  }
+}
