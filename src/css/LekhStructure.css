@@ -151,17 +151,7 @@
 } */
 
 /* For devices with max-width 768px (Large smartphones) */
-@media (max-width:468px) {
-    /* .lekh_image{
-        object-fit: contain;
-        left: 20px;
-        height: 100px;
-        width: 100px;
-    }
-    .lekh_title h1{
-        color: #5fa5f7;
-    } */
-}
+
 @media (max-width: 768px) {
     /* .lekh_image {
         height: 250px;
@@ -206,11 +196,11 @@
     }
     .lekh_image {
         /* position: relative; */
-        width: 250px;
-        height: 400px;
+        width: 200px;
+        height: 350px;
         object-fit: cover;
         left: 100px;
-        top: 90px;
+        top: 130px;
         /* background-color: aqua; */
     }
 

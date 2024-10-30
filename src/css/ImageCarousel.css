@@ -51,15 +51,12 @@
 } */
 
 /* Carousel container */
-.carousel-container {
+/* .carousel-container {
     width: 90%;
     margin: auto;
-    /* padding: 20px; */
-    /* background-color: #3498db; */
     position: relative;
 }
 
-/* Each gallery card container */
 .eachgallerycard {
     outline: none;
     display: flex;
@@ -67,7 +64,6 @@
     align-items: center;
 }
 
-/* Image styling to make it responsive */
 .eachgallerycard img {
     width: 100%;
     height: auto;
@@ -77,17 +73,46 @@
     border-radius: 10px;
 }
 
-/* Title styling */
 .eachgallerycard p {
     text-align: center;
     font-size: 3.5vh;
     font-weight: bold;
     margin-top: 20px;
     color: black;
-    /* color: white; */
-}
+} */
 
-/* Dots styling */
+.carousel-container{
+    /* background-color: aqua; */
+    margin: auto;
+    width: 90%;
+    outline: none;
+    border: none;
+}
+.eachgallerycard{
+    outline: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.gallery_image{
+    width: 100%;
+    height: 80%;
+}
+.eachgallerycard img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.eachgallerycard p{
+    color: #FDBD0F;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 3.5vh;
+    font-weight: 900;
+}
 .slick-dots {
     position: absolute;
     bottom: 10px;
@@ -98,10 +123,9 @@
     gap: 8px;
     bottom: -30px;
     color: aqua;
-    /* background-color: aqua; */
 }
 
-/* Responsive Styles */
+
 @media (max-width: 768px) {
     .carousel-container {
         width: 90%;

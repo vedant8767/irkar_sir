@@ -78,10 +78,12 @@ const ImageCarousel = () => {
             galleryList.length > 0 ? (
                 galleryList.map((photo, index) => (
                   <div key={index} className='eachgallerycard'>
+                  <div className="gallery_image">
                   <img
                     src={photo.imageUrl}
                     alt={`Gallery image ${index + 1}`}
                   />
+                  </div>
                   <p>
                     {photo.title}
                   </p>
