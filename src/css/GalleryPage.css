@@ -1,4 +1,4 @@
-.gallery_container{
+/* .gallery_container{
     min-height: 100vh;
     padding: 20px;
 }
@@ -27,4 +27,17 @@
 
 @media  (min-width: 1920px) {
 
+} */
+.gallery_container{
+    margin: 0;
+    background-color: #4a5577  ;
+    /* background-color: beige; */
+    /* background-color: lightskyblue; */
+    min-height: 100vh;
+}
+.gallery_container h1{
+    /* margin: 20px; */
+    padding: 20px;
+    /* margin-bottom: 20px; */
+    text-align: center;
 }

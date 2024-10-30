@@ -62,7 +62,7 @@ const ImageCarousel = () => {
 
   return (
     <div className="carousel-container">
-      <Slider {...settings}>
+      <Slider className='slider' {...settings}>
         {/* {images.map((image, index) => (
           <div key={index} style={{ outline: 'none' }}>
             <img
