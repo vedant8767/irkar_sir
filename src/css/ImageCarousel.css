@@ -110,7 +110,8 @@
     color: white;
     text-align: center;
     margin-top: 20px;
-    font-size: 5vh;
+    font-size: 3.3vh;
+    line-height: 40px;
     font-weight: 900;
 }
 .eachgallerycard h3{
@@ -118,10 +119,10 @@
     color: white;
     text-align: center;
     margin-top: 20px;
-    font-size: 3.5vh;
+    font-size: 4.5vh;
     margin-bottom: 5px;
     font-weight: 900;
-    text-align: left;
+    text-align: center;
 }
 .slick-dots {
     position: absolute;
@@ -157,7 +158,8 @@
     }
     
     .eachgallerycard p {
-        font-size: 2.5vh;
+        font-size: 2.3vh;
+        line-height: 25px;
         margin-top: 8px;
         text-align: left;
         margin-left: 5px;
@@ -171,6 +173,17 @@
         text-align: left;
         font-size: 2.5vh;
         margin-left: 5px;
+        font-weight: 300;
+    }
+    .eachgallerycard h3{
+        width: 100%;
+        color: white;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 3.5vh;
+        margin-bottom: 5px;
+        font-weight: 900;
+        text-align: left;
     }
 }
 

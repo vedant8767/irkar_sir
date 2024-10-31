@@ -131,7 +131,8 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    background-color: #f0f7ff;
+    /* background-color: #f0f7ff; */
+    background: linear-gradient(to bottom, #ffffff, #9fcfff, #5fa5f7);
     /* background-color: white; */
     /* background-color: black; */
     /* margin-top: 100px; */
@@ -152,7 +153,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to left, #CFD9DF, #E2EBF0);
+    background-color: whitesmoke;
+    /* background: linear-gradient(to bottom,#9fcfff, #5fa5f7); */
+    /* background: linear-gradient(to left, #CFD9DF, #E2EBF0); */
     /* background-color: #f1efd7; */
     width: 350px;
     height: 300px;
@@ -171,7 +174,9 @@
 }
 .card_content p{
   font-weight: 900;
-  color: #333333;
+  /* color: #333333; */
+  /* color: white; */
+  color: black;
 }
 .card_circle{
     margin-top: -100px;

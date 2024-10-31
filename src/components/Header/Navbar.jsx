@@ -144,13 +144,13 @@ export default function Navbar() {
             slug: "/lekh",
         },
         {
+            name: "Gallery",
+            slug : "/gallery",
+        },
+        {
             name: "Contact",
             slug: "/contact",
         },
-        {
-            name: "Gallery",
-            slug : "/gallery",
-        }
     ];
 
     return (
