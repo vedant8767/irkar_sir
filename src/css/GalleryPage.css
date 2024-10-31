@@ -46,3 +46,11 @@
     /* margin-bottom: 20px; */
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .gallery_container h1{
+        text-align: left;
+        margin: 20px;
+        font-weight: 300;
+    }
+}
