@@ -141,7 +141,7 @@
     .eachgallerycard img {
         /* max-height: 40vh;  */
         height: 400px;
-        object-fit: fill;
+        object-fit: contain;
     }
 }
 
