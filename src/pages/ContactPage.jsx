@@ -76,25 +76,25 @@ navbar.style.position = 'relative';
             <div className="icon_circle">
               <i className="fa fa-phone fa-xs" aria-hidden="true"></i>
             </div>
-            <p>+123-456-7890</p>
+            <p>+91 7387194364</p>
           </div>
           <div className="icon_container">
             <div className="icon_circle">
               <i className="fa fa-globe fa-xs" aria-hidden="true"></i>
             </div>
-            <p>www.irkarmahadev.com</p>
+            <p>www.mahadeoirkar.com</p>
           </div>
           <div className="icon_container">
             <div className="icon_circle">
               <i className="fa fa-envelope fa-xs" aria-hidden="true"></i>
             </div>
-            <p>hello@real123@gmail.com</p>
+            <p>mahadeoirkar@gmail.com</p>
           </div>
           <div className="icon_container">
             <div className="icon_circle">
               <i className="fa fa-map-marker fa-xs" aria-hidden="true"></i>
             </div>
-            <p>123 Anywhere vasai west</p>
+            <p>Vasai Palghar - 401201</p>
           </div>
         </div>
         <div className="mid_right">
