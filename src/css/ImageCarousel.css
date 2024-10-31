@@ -204,3 +204,22 @@
         max-height: 60vh;
     }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+    .eachgallerycard h3{
+        font-size: 3vh;
+    }
+    .eachgallerycard p{
+        /* color: aqua; */
+        font-size: 2.5vh;
+        line-height: 70px;
+    }
+    .eachgallerycard h2{
+        /* color: aqua; */
+        font-weight: 300;
+        font-size: 2vh;
+        text-align: left;
+        margin-left: 30px;
+        /* font-family: 1.5vh; */
+    }
+}
