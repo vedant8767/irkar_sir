@@ -65,8 +65,8 @@ const ImageCarousel = () => {
       {/* <div className='eachgallerycard'>
 
       </div> */}
-      {/* <Slider className='slider' {...settings}> */}
-        {/* {images.map((image, index) => (
+      <Slider className='slider' {...settings}>
+        {images.map((image, index) => (
           <div key={index} style={{ outline: 'none' }}>
             <img
               src={image}
@@ -74,15 +74,15 @@ const ImageCarousel = () => {
               style={{ width: '100%', height: 'auto', borderRadius: '10px' }}
             />
           </div>
-        ))} */}
-        {/* {isLoading ? (
+        ))}
+        {isLoading ? (
             <div className=""></div> // Display the CSS spinner
         ) : (
             galleryList.length > 0 ? (
                 galleryList.map((photo, index) => (
                   <div key={index} className='eachgallerycard'>
                   <div className="gallery_image">
-                    <p>{photo.title}</p>
+                    <h3>{photo.title}</h3>
                   <img
                     src={photo.imageUrl}
                     alt={`Gallery image ${index + 1}`}
@@ -97,8 +97,8 @@ const ImageCarousel = () => {
             ) : (
                 <div>Gallery is Updateing.</div>
             )
-        )} */}
-      {/* </Slider> */}
+        )}
+       </Slider>
     </div>
   );
 };

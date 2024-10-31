@@ -17,8 +17,8 @@ const GalleryPage = () => {
       },[])
   return (
     <div className='gallery_container'>
-      {/* <h1>Gallery</h1> */}
-      {/* <ImageCarousel /> */}
+      <h1>Gallery</h1>
+      <ImageCarousel />
     </div>
   );
 };
