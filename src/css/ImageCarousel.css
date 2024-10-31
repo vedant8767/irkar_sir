@@ -107,10 +107,11 @@
     height: 100%;
 }
 .eachgallerycard p{
-    color: #FDBD0F;
+    color: white;
+    /* color: #FDBD0F; */
     text-align: center;
     margin-top: 20px;
-    font-size: 3.5vh;
+    font-size: 5vh;
     font-weight: 900;
 }
 .slick-dots {
@@ -138,7 +139,9 @@
     }
 
     .eachgallerycard img {
-        max-height: 40vh; /* Adjust height for mobile */
+        /* max-height: 40vh;  */
+        height: 400px;
+        object-fit: fill;
     }
 }
 

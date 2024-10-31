@@ -97,11 +97,11 @@ export default function LekhStructure(){
                 <h1>लेख</h1>
             </div>
             <div className="lekh_content" data-aos="fade-up">
-                <p>"लेखक हा समाजाचा आरसा असतो. तो शब्दांच्या माध्यमातून जीवनाच्या अनुभवांना पानांवर उतारतो. लेखकाच्या लेखणीतून कल्पकता, भावना, आणि वास्तवाचा संगम दिसतो. लेखकाच्या लेखणीतून समाजातील समस्या, विचारधारा आणि संवेदनशीलता प्रकट होत असतात. शब्दांच्या या खेळातून तो वाचकांच्या मनाचा ठाव घेतो आणि त्याच्या विचारसरणीला नवीन दिशा व प्रेरणा देतो"</p>
+                <p>"लेखक हा समाजाचा आरसा असतो. तो शब्दांच्या माध्यमातून जीवनाच्या अनुभवांना पानांवर उतरवितो. लेखकाच्या लेखणीतून कल्पकता, भावना, आणि वास्तवाचा संगम दिसतो. लेखकाच्या लेखणीतून समाजातील समस्या, विचारधारा आणि संवेदनशीलता प्रकट होत असतात. शब्दांच्या या खेळातून तो वाचकांच्या मनाचा ठाव घेतो आणि त्याच्या विचारसरणीला नवीन दिशा व प्रेरणा देतो"</p>
                 <div className="lekhcards">
                     <div className="eachcard" data-aos="fade-up" onClick={() => handleCardClick("saihitiklekh")}>
                         <div className="half_circle"></div>
-                        <h1>साहित्य लेख</h1>
+                        <h1>साहित्यविषयक लेख</h1>
                     </div>
                     <div className="eachcard" data-aos="fade-up" onClick={() => handleCardClick("loksaithyalekh")}>
                         <div className="half_circle"></div>
@@ -110,7 +110,7 @@ export default function LekhStructure(){
                     </div>
                     <div className="eachcard" data-aos="fade-up" onClick={() => handleCardClick("samajsudhrakhlekh")}>
                         <div className="half_circle"></div>
-                        <h1>समाज सुधारक लेख
+                        <h1>समाजसुधारक लेख
                         </h1>
                     </div>
                     <div className="eachcard" data-aos="fade-up" onClick={() => handleCardClick("newspaperlekh")}>

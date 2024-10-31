@@ -85,6 +85,7 @@ export default function Experience() {
     return (
         <div className="experience_container">
             <div className="top_experience">
+                {/* <h1>अनुभव</h1> */}
                 <h1>EXPERIENCE</h1>
             </div>
             <div className="exp_top_delow">
