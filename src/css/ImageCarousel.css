@@ -114,10 +114,12 @@
     font-weight: 900;
 }
 .eachgallerycard h3{
+    width: 100%;
     color: white;
     text-align: center;
     margin-top: 20px;
-    font-size: 4vh;
+    font-size: 3.5vh;
+    margin-bottom: 5px;
     font-weight: 900;
     text-align: left;
 }

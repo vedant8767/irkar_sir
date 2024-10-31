@@ -66,7 +66,7 @@ const ImageCarousel = () => {
 
       </div> */}
       <Slider className='slider' {...settings}>
-        {images.map((image, index) => (
+        {/* {images.map((image, index) => (
           <div key={index} style={{ outline: 'none' }}>
             <img
               src={image}
@@ -74,7 +74,7 @@ const ImageCarousel = () => {
               style={{ width: '100%', height: 'auto', borderRadius: '10px' }}
             />
           </div>
-        ))}
+        ))} */}
         {isLoading ? (
             <div className=""></div> // Display the CSS spinner
         ) : (
