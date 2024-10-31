@@ -79,6 +79,7 @@ const ImageCarousel = () => {
                 galleryList.map((photo, index) => (
                   <div key={index} className='eachgallerycard'>
                   <div className="gallery_image">
+                    <p>{photo.title}</p>
                   <img
                     src={photo.imageUrl}
                     alt={`Gallery image ${index + 1}`}
@@ -87,6 +88,7 @@ const ImageCarousel = () => {
                   <p>
                     {photo.title}
                   </p>
+                  <h2>Mahadeo Irkar</h2>
                 </div>
                 ))
             ) : (
