@@ -33,7 +33,7 @@ export default function ContactPage() {
   const onSubmit = async (data) => {
     console.log('Processing.....');
     try {
-      const response = await fetch('api/submit', {
+      const response = await fetch('https://backend-ekla.onrender.com/api/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
