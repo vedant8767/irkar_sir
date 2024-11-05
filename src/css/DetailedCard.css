@@ -1,13 +1,8 @@
 .DetailedCard_Container{
-    /* width: 100%; */
-    /* height: auto; */
-    /* max-height: auto; */
-    /* overflow-y:hidden; */
     min-height: 100vh;
     background-color: seashell;
     padding: 20px;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
 }
@@ -29,14 +24,12 @@
     padding: 10px;
   }
   
-  /* Individual PDF card styling */
   .pdf-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     list-style: none;
-    /* background-color: aqua; */
     background: url('../assets/background-1974467_1920.jpg');
     background-size: cover;
     color: black;
@@ -57,7 +50,6 @@
   .pdf-card p{
     font-size: 3vh;
     font-weight: 600;
-    /* width: 80%; */
   }
   .pdf-card button{
     border: none;
@@ -68,7 +60,7 @@
     border-radius: 3px;
     background-color:aliceblue;
   }
-  /* Modal styling */
+
   .modal {
     position: fixed;
     top: 0;
@@ -118,21 +110,8 @@
   .DetailedCard_Container h1{
     text-align: center;
   }
-  /* Responsive Styles */
-  
-  /* Medium screens (Tablets, iPads) */
-  /* @media (max-width: 768px) {
-    .pdf-card {
-      width: 160px;
-      padding: 15px;
-    }
-    .modal-content {
-      width: 90%;
-    }
-  } */
-  
-  /* Small screens (Mobile devices) */
-  @media (max-width: 768px) {
+
+@media (max-width: 768px) {
     .DetailedCard_Container h1{
       font-size: 3.5vh;
     }
@@ -147,11 +126,11 @@
     }
     .modal-content {
       width: 95%;
-      height: 100vh; /* Full viewport height for mobile devices */
-      border-radius: 0; /* Remove rounded corners for fullscreen effect */
+      height: 100vh; 
+      border-radius: 0; 
     }
     .modal-content iframe {
-      height: calc(100vh - 40px); /* Adjust iframe height for padding */
+      height: calc(100vh - 40px); 
     }
     .close {
       font-size: 22px;
@@ -162,7 +141,6 @@
     .pdf-card p{
       font-size: 2.5vh;
       font-weight: 500;
-      /* width: 80%; */
     }
     .pdf-card button{
       border: none;
@@ -177,11 +155,11 @@
   @media (min-width: 768px) and (max-width: 1024px){
     .modal-content {
       width: 95%;
-      height: 100vh; /* Full viewport height for mobile devices */
-      border-radius: 0; /* Remove rounded corners for fullscreen effect */
+      height: 100vh; 
+      border-radius: 0; 
     }
     .modal-content iframe {
-      height: calc(100vh - 40px); /* Adjust iframe height for padding */
+      height: calc(100vh - 40px); 
     }
   }
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
@@ -196,16 +174,15 @@
     .pdf-card {
       width: 80%;
       height:100%;
-      /* max-width: 300px; */
       padding: 30px;
     }
     .modal-content {
       width: 95%;
-      height: 100vh; /* Full viewport height for mobile devices */
-      border-radius: 0; /* Remove rounded corners for fullscreen effect */
+      height: 100vh; 
+      border-radius: 0; 
     }
     .modal-content iframe {
-      height: calc(100vh - 40px); /* Adjust iframe height for padding */
+      height: calc(100vh - 40px); 
     }
     .close {
       font-size: 22px;
@@ -216,7 +193,6 @@
     .pdf-card p{
       font-size: 2.5vh;
       font-weight: 500;
-      /* width: 80%; */
     }
     .pdf-card button{
       border: none;

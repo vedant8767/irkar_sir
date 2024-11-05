@@ -1,21 +1,19 @@
-// 
 import { useEffect, useState } from 'react';
 import '../css/ContactPage.css';
 import { useForm } from 'react-hook-form';
 import { Helmet } from 'react-helmet-async';
 
 export default function ContactPage() {
+  
   useEffect(()=>{
     var navbar = document.querySelector('.navbar');
     document.querySelectorAll('.btn').forEach(function(button) {
       button.style.color = 'white';
-  });
-  document.querySelector('.navbar h1').style.color = 'white';
-  navbar.style.backgroundColor = 'black';
+    });
+    document.querySelector('.navbar h1').style.color = 'white';
+    navbar.style.backgroundColor = 'black';
 
-
-// Set the position property to an empty string
-navbar.style.position = 'relative';
+    navbar.style.position = 'relative';
   },[])
   const [formError, setFormError] = useState('');
 

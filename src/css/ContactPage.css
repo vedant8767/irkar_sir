@@ -1,221 +1,14 @@
-/* .contact_container{
-    display: flex;
-    background-color:#f7f6f3;
-}
-.contact_container h1{
-    font-size: 4vh;
-}
-.contact_container p{
-    font-size: 3vh;
-    font-weight: 500;
-    line-height: 30px;
-    margin-top: 5px;
-}
-.contact_left{
-    padding: 40px 40px;
-    width: 50%;
-    height: auto;
-}
-.contact_right{
-    padding: 40px;
-    width: 50%;
-}
-form{
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    gap: 22px;
-}
-form input{
-    font-weight: 600;
-    color: black;
-    padding-left:20px;
-    font-size: 3vh;
-    height: 55px;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border: none;
-}
-form input:nth-child(3){
-    height: 120px;
-}
-form button{
-    border-radius: 9999px;
-    outline: none;
-    border: none;
-    height: 40px;
-    font-weight: 700;
-    font-size: 3.5vh;
-    color: black;
-    padding: 10px;
-    background-color: #5e17eb;
-    cursor: pointer;
-} */
-/* updated css */
-/* .contact_container {
-    display: flex;
-    flex-wrap: wrap; 
-    background-color: #f7f6f3;
-    padding: 20px;
-}
-
-.contact_container h1 {
-    font-size: 4vh;
-}
-
-.contact_container p {
-    font-size: 3vh;
-    font-weight: 500;
-    line-height: 30px;
-    margin-top: 5px;
-}
-
-.contact_left, .contact_right {
-    padding: 40px 20px;
-    width: 50%;
-    height: auto;
-}
-
-form {
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    gap: 22px;
-}
-
-form input {
-    font-weight: 600;
-    color: black;
-    padding-left: 20px;
-    font-size: 3vh;
-    height: 55px;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border: none;
-}
-
-form input:nth-child(3) {
-    height: 120px;
-}
-
-form button {
-    border-radius: 9999px;
-    outline: none;
-    border: none;
-    height: 40px;
-    font-weight: 700;
-    font-size: 3.5vh;
-    color: black;
-    padding: 10px;
-    background-color: #5e17eb;
-    cursor: pointer;
-}
-
-/* Responsive Design */
-
-/* @media (max-width: 1024px) {
-    .contact_container {
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-    }
-
-    .contact_left, .contact_right {
-        width: 100%;
-        padding: 20px;
-    }
-
-    .contact_container h1 {
-        font-size: 3.5vh;
-    }
-
-    .contact_container p {
-        font-size: 2.8vh;
-        line-height: 28px;
-    }
-
-    form input {
-        font-size: 2.8vh;
-        height: 50px;
-    }
-
-    form button {
-        height: 38px;
-        font-size: 3vh;
-    }
-}
-
-@media (max-width: 768px) {
-    .contact_container h1 {
-        font-size: 3.2vh;
-    }
-
-    .contact_container p {
-        font-size: 2.5vh;
-    }
-
-    .contact_left, .contact_right {
-        padding: 15px;
-    }
-
-    form input {
-        font-size: 2.5vh;
-        height: 48px;
-    }
-
-    form button {
-        font-size: 2.8vh;
-    }
-}
-
-@media (max-width: 480px) {
-    .contact_container h1 {
-        font-size: 3vh;
-      
-    }
-
-    .contact_container p {
-        font-size: 2.3vh;
-        
-    }
-
-    .contact_left, .contact_right {
-        padding: 10px;
-    }
-
-    form input {
-        font-size: 2.3vh;
-        height: 45px;
-    }
-
-    form input:nth-child(3) {
-        height: 100px;
-    }
-
-    form button {
-        font-size: 2.5vh;
-        padding: 8px;
-    }
-}  */
 .main_contact{
     width: 100%;
     min-height: 100vh;
     margin-top: 50px;
 }
 .contact_container{
-    /* min-height: 100vh; */
-    /* position: absolute;
-    top: 50px; */
     margin-left: 20%;
     display: flex;
     flex-direction: column;
-    /* padding: 20px; */
     width: 60%;
-    /* background: linear-gradient(to right, #9e9e9e, #e8e5e2); */
     background-color: #a6a6a6;
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* margin-top: 100px; */
     margin-bottom: 40px;
 }
 .error {
@@ -224,11 +17,11 @@ form button {
     margin-top: 5px;
   }
   
-  .form-error {
+.form-error {
     color: red;
     font-size: 16px;
     margin-top: 15px;
-  }
+}
   
 .top_section{
     display: flex;
@@ -242,8 +35,6 @@ form button {
 }
 .top_section h2{
     font-size: 10vh;
-    /* margin-left: 190px; */
-    /* margin-top: -25px; */
 }
 .mid_section{
     display: flex;
@@ -297,8 +88,6 @@ form button {
     color: white;
     font-size: 3vh;
     font-weight: 700;
-    /* height: 40px;
-    width: 250px; */
 }
 .icon_container{
     display: flex;
@@ -318,10 +107,8 @@ form button {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 70%; */
     height: 100px;
     background: linear-gradient(to right, #f45128, #feb47b);
-    /* background-color:#f5540c; */
     margin-top: 30px;
     font-size: 3vh;
 }
@@ -341,75 +128,11 @@ form button {
 
 
 @media (min-width: 768px) and (max-width: 1023px){
+
     .contact_container{
         margin-left: 10px;
         width: 95%;
     }
-
-    /* .contact_container {
-        margin-left: 5%;
-        width: 90%;
-        margin-top: 150px;
-        margin-bottom: 150px;
-      }
-      .top_section{
-          margin-top: 20px;
-          align-items: center;
-          justify-content: center;
-          margin-bottom: 10px;
-      }
-    
-      .top_section h1 {
-        font-size: 4vh;
-        
-      }
-    
-      .top_section h2 {
-        font-size: 6vh;
-        margin-left: 170px;
-        margin-top: -15px;
-      }
-    
-      .mid_section {
-        flex-direction: column;
-        gap: 70px;
-        margin-left: 70px;
-      }
-      .mid_left, .mid_right form {
-        font-size: 2vh;
-      }
-    
-      .mid_right form input,
-      .mid_right form textarea {
-        width: 90%;
-        height: 80px;
-        font-size: 2vh;
-      }
-    
-      .mid_right form button {
-        font-size: 2vh;
-        height: 80px;
-        width:90%;
-      }
-      .icon_container{
-        gap: 30px;
-      }
-    
-      .icon_container p {
-        font-size: 2vh;
-      }
-      .icon_circle{
-        width: 50px;
-        height: 50px;
-      }
-      .bottom_section{
-            height: 170px;
-      }
-    
-      .bottom_section h1 {
-          padding: 20px 40px;
-        font-size: 2vh;
-      } */
 }
 
 @media (max-width: 768px) {
@@ -428,19 +151,16 @@ form button {
     
     .top_section h1 {
       font-size: 4vh;
-      /* margin-left: 30px; */
     }
   
     .top_section h2 {
       font-size: 4vh;
-      /* margin-left: 120px; */
       margin-top: -15px;
     }
   
     .mid_section {
       flex-direction: column;
       gap: 30px;
-      /* margin-top: 20px; */
       margin-left: 25px;
     }
   
@@ -500,7 +220,6 @@ form button {
     .mid_section {
       flex-direction: column;
       gap: 30px;
-      /* margin-top: 20px; */
       margin-left: 25px;
     }
   

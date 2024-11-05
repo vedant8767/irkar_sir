@@ -1,88 +1,4 @@
-/* 
 .carousel-container{
-    width: 90%;
-    margin: auto;
-}
-.eachgallerycard{
-    outline: none;
-}
-.eachgallerycard img{
-    width: 100%;
-    height: auto; 
-}
-.eachgallerycard p{
-    text-align: center;
-    font-size: 5vh;
-    font-weight: 800;
-    margin-top: 20px;
-}
-@media  (max-width: 768px) {
-    .carousel-container{
-        width: 100%;
-    }
-    .eachgallerycard p{
-        text-align: center;
-        font-size: 2.5vh;
-        font-weight: 800;
-        margin-top: 10px;
-    }
-    .eachgallerycard img{
-        height: 40vh;
-    }
-    .eachgallerycard{
-        height: 50vh;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1023px){
-    .eachgallerycard p{
-    text-align: center;
-    font-size: 3vh;
-    margin-top: 30px;
-}
-
-}
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
-}
-
-@media  (min-width: 1920px) {
-
-} */
-
-/* Carousel container */
-/* .carousel-container {
-    width: 90%;
-    margin: auto;
-    position: relative;
-}
-
-.eachgallerycard {
-    outline: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.eachgallerycard img {
-    width: 100%;
-    height: auto;
-    max-height: 60vh;
-    object-fit:contain;
-    object-position:center;
-    border-radius: 10px;
-}
-
-.eachgallerycard p {
-    text-align: center;
-    font-size: 3.5vh;
-    font-weight: bold;
-    margin-top: 20px;
-    color: black;
-} */
-/* >>>>>>>>>>>>>>>>>>>>>>>>> */
-.carousel-container{
-    
     margin: auto;
     width: 90%;
     outline: none;
@@ -141,11 +57,7 @@
     margin-top: 20px;
     color: white;
 }
-/* .carousel-container{
-    height: auto;
-    width: 100%;
-    background: url('../assets/ee.jpg');
-} */
+
 
 
 @media (max-width: 768px) {
@@ -167,7 +79,6 @@
     }
 
     .eachgallerycard img {
-        /* height: 400px; */
         object-fit: contain;
     }
     .eachgallerycard h2{
@@ -210,16 +121,13 @@
         font-size: 3vh;
     }
     .eachgallerycard p{
-        /* color: aqua; */
         font-size: 2.5vh;
         line-height: 70px;
     }
     .eachgallerycard h2{
-        /* color: aqua; */
         font-weight: 300;
         font-size: 2vh;
         text-align: left;
         margin-left: 30px;
-        /* font-family: 1.5vh; */
     }
 }

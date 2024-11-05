@@ -2,7 +2,6 @@ import { useEffect } from 'react'
 import './App.css'
 import Footer from './components/Footer'
 import Navbar from './components/Header/Navbar'
-import Home from './pages/HomePage'
 import { Outlet } from 'react-router-dom'
 import AOS from 'aos';
 import 'aos/dist/aos.css';

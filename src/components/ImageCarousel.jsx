@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import Slider from 'react-slick';
-import img1 from '../assets/achievement.png'
-import img2 from '../assets/exp_main.jpg'
-import img3 from '../assets/experience.png'
 import {getGallery} from '../firebase/firebase'
 import '../css/ImageCarousel.css'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const ImageCarousel = () => {
   const settings = {
@@ -54,27 +53,11 @@ const ImageCarousel = () => {
 
     fetchGallery();
 },[]);
-  const images = [
-    img1,
-    img2,
-    img3
-  ];
+
 
   return (
     <div className="carousel-container">
-      {/* <div className='eachgallerycard'>
-
-      </div> */}
       <Slider className='slider' {...settings}>
-        {/* {images.map((image, index) => (
-          <div key={index} style={{ outline: 'none' }}>
-            <img
-              src={image}
-              alt={`Gallery image ${index + 1}`}
-              style={{ width: '100%', height: 'auto', borderRadius: '10px' }}
-            />
-          </div>
-        ))} */}
         {isLoading ? (
             <div className=""></div> // Display the CSS spinner
         ) : (

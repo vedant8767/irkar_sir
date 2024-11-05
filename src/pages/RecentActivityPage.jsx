@@ -1,10 +1,7 @@
 import '../css/RecentActivityPage.css'
-import self_image from '../assets/self_image.jpg'
 import leftflower from '../assets/leftflower.png'
 import rightflower from '../assets/rightflower.png'
 import mid from '../assets/mid.png'
-// import AOS from 'aos';
-// import 'aos/dist/aos.css';
 import {getRecentActivity} from '../firebase/firebase'
 import { useEffect, useState } from 'react'
 import { Helmet } from 'react-helmet-async'
@@ -81,46 +78,17 @@ export default function RecentActivityPage (){
         )}
                 </div>
                 <div className='recent_images'>
-                    <div className="recent_left_flower">
+                    {/* <div className="recent_left_flower">
                         <img src={leftflower} alt="" />
-                    </div>
+                    </div> */}
                     <div className="recent_mid_image">
                         <img src={mid} alt="" />
                     </div>
-                    <div className="recent_right_flower">
+                    {/* <div className="recent_right_flower">
                         <img src={rightflower} alt="" />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
-        // <div className='recentactivity'>
-        // <h1>Recent Activities</h1>
-        // <div className='recentactivity_container'>
-        //     <div className="main_card">
-        //         <img src={`https://img.youtube.com/vi/1TpvtbUEBGA/maxresdefault.jpg`} alt="yt" onClick={()=>gotoyt('1TpvtbUEBGA')}/>
-        //         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ipsam tempora ex ad molestiae accusantium excepturi odit ullam nesciunt impedit.</p>
-        //     </div>
-        //     <div className="subcards">
-        //         <div className="eachcardachev">
-        //         <img src={`https://img.youtube.com/vi/vgjdaSf62ak/maxresdefault.jpg`} alt="yt" onClick={()=>gotoyt('vgjdaSf62ak')}/>
-        //             <p>Lorem ipsum dolor sit amet consectetur 
-        //                 adipisicing elit. Adipisci velit ab
-        //                  eaque recusandae reprehenderit est voluptatum quod, culpa debitis eius.</p>
-        //         </div>
-        //         <div className="eachcardachev">
-        //         <img src={`https://img.youtube.com/vi/1TpvtbUEBGA/maxresdefault.jpg`} alt="yt" onClick={()=>gotoyt('1TpvtbUEBGA')}/>
-        //             <p>Lorem ipsum dolor sit amet consectetur 
-        //                 adipisicing elit. Adipisci velit ab
-        //                  eaque recusandae reprehenderit est voluptatum quod, culpa debitis eius.</p>
-        //         </div>
-        //         <div className="eachcardachev">
-        //         <img src={`https://img.youtube.com/vi/kp9MgdI5GFk/maxresdefault.jpg`} alt="yt" onClick={()=>gotoyt('kp9MgdI5GFk')}/>
-        //             <p>Lorem ipsum dolor sit amet consectetur 
-        //                 adipisicing elit. Adipisci velit ab
-        //                  eaque recusandae reprehenderit est voluptatum quod, culpa debitis eius.</p>
-        //         </div>
-        //     </div>
-        // </div>
-        // </div>
     )
 }

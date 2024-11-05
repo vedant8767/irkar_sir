@@ -1,244 +1,11 @@
-/* .home_container{
-    display: flex;
-    height: 75vh;
-    
-}
-.home_left{
-    width: 50%;
-    height: 100%;
-    padding: 45px 90px;
-    line-height: 38px;
-   
-} 
-/* .home_left h1{
-    color: yellow;
-    font-size: 6vh;
-    font-weight: bold;
-}
-.home_left p{
-    color: white;
-    font-size: 4vh;
-    font-weight: bold;
-    margin-top: 20px;
-}
-.home_left h2{
-    color: white;
-    font-size: 3.5vh;
-    margin-left: 50px;
-    margin-top: 10px;
-}
-.home_right{
-    width: 50%;
-    height: 100%;
-}
-.home_right img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-} */
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Mukta:wght@300;400&display=swap&subset=devanagari');
-/* .home_container {
-    border-bottom: 2px solid black;
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    margin: 0 auto;
-    background-color: white;
-}
-.home_content{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    border-radius: 20px;
-    background-color: hsla(0, 0%, 100%, 0.3);
-    margin-top: 90px;
-    width: 475px;
-    color: white;
 
-}
-
-.home_left {
-    width: 45%;
-    height: 100%;
-    padding: 45px 90px;
-    line-height: 38px;
-    background: linear-gradient(to right ,black, #202020 );
-}
-
-.home_left h1 {
-    font-family: 'Mukta', sans-serif;
-    font-size: 6vh;
-    font-weight: 700;
-    margin-left: 45px;
-}
-
-.home_left p {
-    font-size: 4vh;
-    font-family: 'Baloo 2', cursive;
-    font-weight: 500;
-    margin-left: 40px;
-}
-
-.home_left h2 {
-    font-size: 3.5vh;
-    margin-left: 1px;
-    text-align: center;
-    font-weight: 500;
-}
-
-.home_right {
-    width: 55%;
-    height: 100%;
-}
-
-.home_right img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-
-@media (max-width: 768px) {
-    .home_container {
-        flex-direction: column; 
-        height: auto;
-    }
-
-    .home_left {
-        width: 100%;
-        padding: 20px 40px;
-        line-height: 1.5;
-        text-align: center;
-    }
-
-    .home_left h1 {
-        font-size: 5vh;
-    }
-
-    .home_left p {
-        font-size: 3.5vh;
-        margin-top: 15px;
-    }
-
-    .home_left h2 {
-        font-size: 3vh;
-        margin-left: 0;
-        margin-top: 10px;
-    }
-
-    .home_right {
-        width: 100%;
-        height: auto;
-    }
-
-    .home_right img {
-        height: auto;
-        object-fit: contain;
-    }
-}
-
-
-@media (max-width: 480px) {
-    .home_container {
-        margin-top: 0px;
-        height: auto;
-        width: 100%;
-    }
-    .home_content{
-        margin-top: 120px;
-        height: auto;
-        width: 90%;
-    }
-
-    .home_left {
-        background: linear-gradient(to right,#202020 ,black  );
-        height: 50vh;
-        width: 100%;
-        padding: 10px 20px;
-    }
-
-    .home_left h1 {
-        font-size: 3vh;
-        margin-left: 10px;
-    }
-
-    .home_left p {
-        font-size: 2vh;
-        margin-top: 10px;
-        margin-left: 10px;
-    }
-
-    .home_left h2 {
-        font-size: 2vh;
-        margin-top: 5px;
-    }
-
-    .home_right {
-        width: 100%;
-        height: 50vh;
-    }
-
-    .home_right img {
-        height: 50vh;
-        object-fit: cover; 
-    }
-}
-@media (min-width: 768px) and (max-width: 1024px){
-    .home_container {
-        margin-top: 0px;
-        height: 100vh;
-        flex-direction: column;
-    }
-    .home_content{
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-        margin-top: 100px;
-        width: 90%;
-        margin-left: 0px;
-        padding: 30px 20px;
-    }
-
-    .home_left {
-        height: 50%;
-        width: 100%;
-        padding: 0px 50px;
-    }
-
-    .home_left h1 {
-        font-size: 3vh;
-    }
-
-    .home_left p {
-        font-size: 2vh;
-        margin-top: 10px;
-        line-height: 50px;
-    }
-
-    .home_left h2 {
-        font-size: 1.5vh;
-        margin-top: 20px;
-        margin-left: 3px;
-    }
-
-    .home_right {
-        width: 100%;
-        height: 50%;
-    }
-
-    .home_right img {
-        height: 100%;
-        object-fit:cover;
-    }
-} */
- /* Add these lines to your Home.css or index.css */
- .carousel_item {
+.carousel_item {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px; /* Adjust the height as per your requirement */
+    height: 400px; 
 }
 
 .carousel_item img {
@@ -250,28 +17,10 @@
     min-height: 100vh;
     background-image: url("../assets/home.jpg");
     background-size: cover;
-    /* background-position: center center; */
     background-repeat: no-repeat;
-    /* background-size: cover;
-    background-repeat:no-repeat ; */
-    border-bottom: 1px solid black;
-}
-/* .home_container {
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
     border-bottom: 1px solid black;
 }
 
-.home_container img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensures the image covers the container without cropping */
-    /* z-index: -1; Makes the image act like a background 
-} */
 .home_content{
     position: absolute;
     display: flex;
@@ -279,12 +28,6 @@
     padding: 40px 30px;
     border-radius: 15px;
     background-color: hsla(0, 0%, 100%, 0.3);
-    /* top: 150px;
-    left: 185px; */
-    /* top: 50%; */
-    /* left: -50px; */
-    /* left: 0%;
-    transform: translate(-85%, -40%);  */
     top: 29%;
     width: 42%;
     left: 230px;
@@ -296,20 +39,17 @@
     font-family: 'Mukta', sans-serif;
     font-size: 6vh;
     font-weight: 700;
-    /* margin-left: 70px; */
 }
 
 .home_content p {
     font-size: 4vh;
     font-family: 'Baloo 2', cursive;
     font-weight: 500;
-    /* margin-left: 30px; */
     margin-top: 20px;
 }
 
 .home_content h2 {
     font-size: 3.5vh;
-    /* margin-left: 1px; */
     text-align: center;
     font-weight: 500;
 }
@@ -325,27 +65,21 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, 0%); 
-        /* left:30px;
-        top: 420px; */
         height: auto;
         padding: 30px;
         border-radius: 0px;
         align-items: center;
-        /* justify-content: center; */
-        /* display: none; */
     }
     .home_content h1{
         margin-left: 0px;
         font-size: 2.5vh;
     }
     .home_content p{
-        /* margin-left: 0px; */
         font-size: 2vh;
         font-weight: 600;
     }
     .home_content h2{
         font-size: 1.5vh;
-        /* margin-left: 0px; */
     }
 }
 @media (min-width: 768px) and (max-width: 1024px){
@@ -356,43 +90,15 @@
         transform: translate(-50%, 0%); 
     }
     .home_container{
-        /* background-size: contain; */
         background-position:center;
     }
     
-    /* .home_container{
-        height: 100vh;
-        background-image: url("../assets/mobile.png");
-        background-size: cover;
-    } 
-    .home_content{
-        width: 85%;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, 0%); 
-        height: auto;
-        padding: 30px;
-        border-radius: 0px;
-        align-items: center;
-    }
-    .home_content h1{
-        margin-left: 0px;
-        font-size: 2.5vh;
-    }
-    .home_content p{
-        font-size: 1.8vh;
-        font-weight: 600;
-    }
-    .home_content h2{
-        font-size: 1.5vh;
-    } */
 }
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
     .home_container{
         height: 100vh;
         background-image: url("../assets/mobile.png");
         background-size: cover;
-        /* background-position: center; */
     } 
     .home_content{
         width: 85%;
@@ -407,7 +113,6 @@
     .home_content h1{
         margin-left: 0px;
         font-size: 2.5vh;
-        /* color: aqua; */
     }
     .home_content p{
         font-size: 1.8vh;
@@ -417,9 +122,4 @@
         font-size: 1.5vh;
     } 
 }
-/* @media screen and (min-width: 1300px) {
-    .home_container{
-        width:650px ;
-        
-    }
-} */
+
