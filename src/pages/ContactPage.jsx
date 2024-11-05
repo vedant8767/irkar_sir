@@ -61,7 +61,7 @@ export default function ContactPage() {
       <Helmet>
       <title>Mahadeo irkar contact </title>
       <meta name="description" content="Viva college,Facebook, LinkedIn, Instagram, yt video, viva college professor,vasai" />
-      <link rel="canonical" href='/contact'/>
+      <link rel="canonical" href='https://mahadeoirkar.com/contact'/>
       </Helmet>
       <div className="contact_container" data-aos="zoom-in">
       <div className="top_section">

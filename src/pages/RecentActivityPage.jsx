@@ -46,7 +46,7 @@ export default function RecentActivityPage (){
             <Helmet>
             <title>Mahadeo irkar activity </title>
             <meta name="description" content="Recent activity of mahadeo irkar such as speech, yt video, meet up with Prakash amte" />
-            <link rel="canonical" href='https://irkar-sir.vercel.app/recentactivity'/>
+            <link rel="canonical" href='https://mahadeoirkar.com/recentactivity'/>
             </Helmet>
             <div className="recent_activity">
                 <h1>Recent Activity</h1>

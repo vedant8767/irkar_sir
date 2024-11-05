@@ -21,7 +21,7 @@ const GalleryPage = () => {
       <Helmet>
             <title>Mahadeo irkar Gallery </title>
             <meta name="description" content="awards pricies memories" />
-            <link rel="canonical" href='https://irkar-sir.vercel.app/gallery'/>
+            <link rel="canonical" href='https://mahadeoirkar.com/gallery'/>
       </Helmet>
       <h1>Gallery</h1>
       <ImageCarousel />

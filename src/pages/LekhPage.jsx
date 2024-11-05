@@ -7,7 +7,7 @@ export default function LekhPage (){
           <Helmet>
           <title>Marathi lekhan </title>
           <meta name="description" content="writer,poet,marathi writer,Lekhak, kavi mahadeo irkar,Kavita , sahitya,smaj sudhark, lok sanskruti, mendhpal dhnagar jivan shaili lekhan" />
-          <link rel="canonical" href='https://irkar-sir.vercel.app/lekh'/>
+          <link rel="canonical" href='https://mahadeoirkar.com/lekh'/>
           </Helmet>
           <LekhStructure/>  
         </div>
