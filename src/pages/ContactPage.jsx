@@ -16,6 +16,7 @@ export default function ContactPage() {
     navbar.style.position = 'relative';
   },[])
   const [formError, setFormError] = useState('');
+  const [formSucess, setFormSucess] = useState('');
 
   const {
     register,
@@ -46,11 +47,14 @@ export default function ContactPage() {
         console.log('Form submitted successfully:', result);
         reset();
         setFormError('');
+        setFormSucess("Form submitted successfully")
       } else {
         console.error('Form submission failed');
+        setFormSucess('')
         setFormError('Form Submission Failed, Try Again!');
       }
     } catch (error) {
+      setFormSucess('')
       console.error('Error submitting the form:', error);
       setFormError(error);
     }
@@ -143,6 +147,7 @@ export default function ContactPage() {
 
           {/* Global Form Submission Error */}
           {formError && <h3 className="form-error">{formError}</h3>}
+          {formSucess && <h3 className="form-sucess">{formSucess}</h3>}
         </div>
       </div>
       <div className="bottom_section">
